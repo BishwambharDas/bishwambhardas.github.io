@@ -38,7 +38,10 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+
+# Google Analytics
+google_analytics: UA-52907009-1
+
 # Archives
 jekyll-archives:
   enabled:
