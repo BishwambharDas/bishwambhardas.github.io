@@ -1,13 +1,12 @@
 ---
 layout: post
 title:  "How Srila Vaman Maharaja was appointed Acharya of the Gaudiya Vedanta Samiti"
-author: Hrisikesh Dasa
-categories: [Srila Gurudev Homages]
-image: assets/images/666.jpg
+author: raja
+categories: [Srila Gurudev Homages,BV Vaman Goswami Maharaj]
+image: assets/images/111.jpg
 featured: true
 hidden: true
 ---
-
 In the following article Srila Bhakti Vedanta Yachak Maharaja gives us insight of how Srila Bhakti Vedanta Vaman Goswami Maharaja was appointed as the Acharya of Gaudiya Vedanta Samiti.
 
 #### How Srila Vaman Maharaja was appointed Acharya of the Gaudiya Vedanta Samiti?
@@ -115,3 +114,4 @@ It is my deep misfortune that although I have spent so many years in close proxi
 With this prayer I would bring my speech to an end. May Srila Gurudeva listen to our prayers and grace us with his mercy.
 
 This article was written by Srila Bhakti Vedanta Yachak Maharaja, the first disciple of Srila Bhakti Vedanta Vaman Goswami Maharaja.
+
