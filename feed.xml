@@ -1,30 +1,964 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Mediumish</title>
+    <description>Serving the lotus feet of our guru varga, by following the instructions passed on to us.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 04 Aug 2020 08:21:44 +0530</pubDate>
+    <lastBuildDate>Tue, 04 Aug 2020 08:21:44 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Vinoda and Vinoda Bihari</title>
+        <description>&lt;p&gt;The following article was published in Śrī Gauḍīya-patrikā, under the auspices of Śrī Śrīmad Bhaktivedānta Vāmana Gosvāmī Mahārāja.&lt;/p&gt;
+
+&lt;p&gt;The meaning of avadhūta&lt;/p&gt;
+
+&lt;p&gt;A discussion of this sort ought to start from the beginning, from the root of the matter, and in discussing roots and beginnings, the subject of guru is bound to arise. In this case, however, the discussion does not start with Kṛṣṇa, who first imparted divine knowledge unto Brahmā, but rather with the root of the Gauḍīya community [avadhūta-śiromaṇī Śrīman Nityānanda Prabhu], the crowning jewel of the lineage descending from Brahmā:&lt;/p&gt;
+
+&lt;p&gt;pāṣaṇda-dalana āra prema-pracāraṇa
+dui kārye avadhūta karena bhramaṇa&lt;/p&gt;
+
+&lt;p&gt;Śrī Caitanya-caritamrta (Antya-līlā 3.149)&lt;/p&gt;
+
+&lt;p&gt;The aloof saint sets about two tasks in his wanderings: to tame the wicked and preach the gospel of love.&lt;/p&gt;
+
+&lt;p&gt;The avadhūta, the unconventional saint, who has shaken off worldly notions and obligations, is as inexplicable as he is extraordinary. There is nothing extraordinary about actual insanity, however, or someone acting like a crazy person to gain attention. That is just abnormal and decidedly mundane.&lt;/p&gt;
+
+&lt;p&gt;evaṁ vrataḥ sva-priya-nāma-kīrttyā
+jātānurāgo druta-citta uccaiḥ
+hasaty atho roditi rauti gayaty
+unmāda-van nṛtyati loka-bāhyaḥ&lt;/p&gt;
+
+&lt;p&gt;Śrīmad-Bhāgavatam (11.2.40)&lt;/p&gt;
+
+&lt;p&gt;One who is constantly preoccupied with performing kīrtana of his beloved names of the Lord experiences the awakening of divine love, which melts his heart. He then displays spiritual ecstasy, sometimes laughing, sometimes crying, sometimes singing and sometimes dancing like a madman not caring about the opinion of the general masses.&lt;/p&gt;
+
+&lt;p&gt;As stated above, when the avadhūta sings Śrī Kṛṣṇa’s names, overwhelmed by intense longing (anurāga), he loses his social inhibition. In that state, like a mad person, sometimes he laughs, and at other times he cries. Sometimes he yells, and sometimes he is silent. From a materialistic perspective, this external manifestation of his longing is perceived as a platform for deception.&lt;/p&gt;
+
+&lt;p&gt;The original avadhūta of the Gauḍīya lineage, Śrīman Nityānanda Prabhu, refrained from any such expressions of overwhelming ecstasies and occupied himself with curbing others’ wicked tendencies (pāṣaṇda-dalana, as in the Śrī Caitanya-caritāmṛta verse quoted above) and propagating prema (prema-pracāraṇa). He may not tout a plow or club in this recent pastime, but the functions of those instruments never ceased. Śrīman Nityānanda Prabhu is perpetually situated in His role of subduing evil, as He once did with His club, and drawing people to Him, as He did with His plow. It can also be said that His plow readies the field of the heart so that He may sow the seed of the vine of devotion. Either way, these are instruments in His role of spreading love (prema-pracāra).&lt;/p&gt;
+
+&lt;p&gt;Our Gauḍīya guru-varga are this type of avadhūta. They do not only relish their rapture; they preach too. They do not simply throw pearls into the brush; they prepare the field and sow the seed. They do not just quash evil; they propagate prema. Chastisement does not work on its own; there has to be affection too.&lt;/p&gt;
+
+&lt;p&gt;Śrīla Keśava Gosvāmī Maharāja is an avadhūta&lt;/p&gt;
+
+&lt;p&gt;The real name of the avadhūta we are discussing is “Vinoda”. Though “Vinoda”* is beyond all trifling designations, in this world of appellations, he is tridaṇḍi-svāmī Śrī Śrīla Bhakti Prajñāna Keśava Gosvāmī Mahārāja. It is he who decorates the designation of the esteemed sannyāsa order and blesses it. Someone who is naturally beyond all social constructs (varṇāśrama), a paramahaṁsa beyond ordinary prohibitions, adopts varṇāśrama and submits to the constraint of rules and regulations, not for his own welfare, but because he wants to benefit the masses who are averse to their own good. And if we can grasp this fact, it puts our own wellbeing in our hands.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This refers to Śrī Vinoda Mañjarī, Śrī Śrīmad Bhakti Prajñāna Keśava Gosvāmī Mahārāja in Śrī Rādhā-Kṛṣṇa’s pastimes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pāṣaṇḍa-dalana: subduing the hypocrisy of Māyāvāda&lt;/p&gt;
+
+&lt;p&gt;Of all the hypocrisy and wickedness in the world, the worst is impersonalism, or Māyāvāda, which was widely preached by Śrī Śaṅkarācārya, though it was not what he treasured in his heart. Māyāvāda attacks prema itself. Māyāvāda is an evil-mindedness that wants to merge with and become what is left of the personification of divine love (Śrī Bhagavān) after it cuts off His lotus-like hands and feet with the swords of nihilistic assertions. If the personified form of eternity, consciousness and bliss is so loathsome, then why the ambition to merge with that form? Evidently, this is the reaction of a severe evil-mindedness. The form of fire draws insects to immolate themselves in it. If one does not accept that divinity has form, why become one with it?&lt;/p&gt;
+
+&lt;p&gt;From the very beginning of his surrendered life to his divine master, Śrīla Bhakti Prajñāna Keśava Gosvāmī Prabhu determined Māyāvāda to be the main impediment to propagating the gospel of prema. Māyāvāder Jīvanī (A History of Māyāvāda), his book of research into the modern and unsophisticated origins of Māyāvāda will surely endure as an illuminating perspective for those seeking eternal welfare.&lt;/p&gt;
+
+&lt;p&gt;At present, almost everyone understands advaitavāda, brahmavāda, or other similar philosophies to be the same as Śrī Śaṅkarācārya’s kevalādvaita-vāda. Māyāvāder Jīvanī delivers an escape from this whirlpool of illusion. The ancient Advaita philosophy of the Brahmavādīs has never been the same as Śrī Śaṅkara’s Māyāvāda. For Brahmavādīs, the ultimate destination is the effulgent Brahma-loka. Māyāvādīs, on the other hand, are downright offenders, fit to be punished by Yama, death personified, as stated in Śrī Caitanya-caritāmṛta (Madhya-līlā 6.167):&lt;/p&gt;
+
+&lt;p&gt;“śrī-vigraha je nā māne, sei to’ pāṣaṇḍī
+adṛśya, aspṛśya—sei haya yama-daṇḍī”&lt;/p&gt;
+
+&lt;p&gt;He is wicked who denies the form of Divinity; he is not to be seen or touched; he will be punished by Yama.&lt;/p&gt;
+
+&lt;p&gt;Māyāvāda is but a version of Buddhism, that is, of Buddhadeva’s śunyavāda, which literally translates as “the zero theory” or “voidism”, with the Vedic word brahma in place of śunyā. At their roots, they have the same objective: nihilism. Padma Purāṇa therefore refers to Māyāvāda as prachanna bauddha-vāda or “veiled Buddhism”, while Śrīman Mahāprabhu declared it to be atheism that seeks Vedic corroboration.&lt;/p&gt;
+
+&lt;p&gt;The limitations of aparokṣa-jñāna (monism)&lt;/p&gt;
+
+&lt;p&gt;Śrīla Prabhupāda informs us in his Śrīmad-Bhāgavata sermons that the cultivation of Vedic teachings that gives precedence to karma constitutes aparā-vidyā, inferior or limited knowledge, or perception that cannot transcend these temporal realms. But cultivation of aparokña* (impersonalism), which is knowledge driven by indifference to the mundane as a result of seeing action (karma) as the source of suffering, cannot be called parā-vidyā (absolute spiritual knowledge) either, as it does not awaken the inherent nature of the soul.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There are five types of knowledge, namely that which pertains to direct sense perception of gross phenomena (pratyakṣa or aksaja), to Svarga (parokṣa), to the unmanifest, formless Brahman (aparokṣa), to Vaikuṇṭha (adhokṣaja) and to Goloka Vṛndāvana (aprākṛta). (Śrī Brahma-saṁhitā, Verse 33, ṭīkā translation).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Those who subscribe to this aparokṣa (monistic) perspective can conceive only of oneness, as in the Vedantic axiom “ekam evādvitīyam – there is only one, second to none.” But they cannot reconcile plurality. Those who rely on this aparokṣa perspective are intellectually blocked when it comes to the plurality of that one indivisible and absolute whole, i.e. the variety of Śrī Bhagavān’s names, forms, qualities, pastimes and companions. For them, prema, the supreme goal of human existence, becomes the setting sun disappearing beyond the furthest horizon.&lt;/p&gt;
+
+&lt;p&gt;Cultivation of transcendence begins from the point of adhokṣaja&lt;/p&gt;
+
+&lt;p&gt;Exploration of the variegatedness of spiritual existence begins with scrutiny of adhokṣaja-tattva, or that which is definitively beyond the perception of material senses. He who is absorbed from moment to moment in divine pastimes, defying every strained attempt the conditioned souls make to know Him through their senses is Adhokṣaja. Once the conditioned souls disengage their senses from that painful enterprise of monism and engage them in the service of the Lord of the senses, Śrī Hṛṣīkeśa, then by His own sweet will that Entity who is beyond the grasp of the senses allows Himself to be perceived by the souls’ senses. If He did not forever keep Himself separate from the indulgent purview of the conditioned souls’ senses, then He would become but another inert object to be enjoyed by them, and it would be impossible for the living entity’s tendency to serve wholeheartedly to manifest.&lt;/p&gt;
+
+&lt;p&gt;The speciality of aprākṛta over adhokṣaja&lt;/p&gt;
+
+&lt;p&gt;The senses of the Lord of the senses, however, cannot be gratified to the utmost degree by our cultivation of this transcendent awareness of Adhokṣaja. Though He is worshipped by all and though He sustains all, the sheer delight He experiences from being scolded and nurtured, He cannot derive from the illustrious hymns of the Vedas. Though the words adhokṣaja (transcendent) and aprākṛta (supra-mundane, or non-mundane) are synonymous, one cannot deny their respective specialities: the implications of reverence and formality (aiśvarya) of the former and the intimate sweetness (mādhurya) of the latter. When Adhokṣaja, that entity of pure transcendence, appears indistinguishable from the mundane, though He is beyond its reach, He achieves supreme definition as aprākrṭa-tattva, or that which resembles the mundane (prakṛta) but is in fact not.* In that moment, Bhagavān, God of gods, climbs into the lap of His mother and starts bawling. He becomes overjoyed when He gets to eat His friends’ remnants. And He is terrified when He sees the formidable indignation of His beloveds, the gopīs.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;See endnote by Śrī Śrīmad Bhaktivedānta Nārāyaṇa Gosvāmī Mahārāja for an elaboration on this topic.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Prema-pracāraṇa: propagating divine love, the pinnacle of aprākṛta-tattva&lt;/p&gt;
+
+&lt;p&gt;Within that aprākṛta-tattva, two specialities shine forth: one characterized by sweet charm and intimacy (mādhurya) and the other by benevolence and magnanimity (audārya). By saying that Śrī Kṛṣṇa’s pastimes are characterized by mādhurya and Śrī Gaura’s pastimes by audārya, however, it does not mean they are strictly either mādhurya or audārya. When intimacy and sweetness is profuse, it yields magnanimity, and when magnanimity prevails, it naturally produces charm and sweetness.&lt;/p&gt;
+
+&lt;p&gt;The Gauḍīya avadhūtas shun the monistic approach of aparokṣa and know realization of the Lord’s Adhokṣaja aspect to be insufficient. They declare the ultimate summit of cultivating a conception of aprākṛta to be their most cherished objective. Śrīla Keśava Gosvāmī Prabhu demonstrated his highly nuanced realization of the aprākṛta by manifesting the service of Śrī Rādhā Vinoda-bihārī, the treasure of his heart. This extraordinary and unique pastime of his, of propagating prema, is the main objective of our discussion.&lt;/p&gt;
+
+&lt;p&gt;How Śrī Kṛṣṇa lost His complexion while immersed in thought of Śrī Rādhā&lt;/p&gt;
+
+&lt;p&gt;In describing Śrī Rādhā-Vinoda-bihārī’s specific ontology, or tattva, Śrīla Keśava Gosvāmī Prabhu first of all glorifies Them as follows:&lt;/p&gt;
+
+&lt;p&gt;rādhā-cintā-niveśena / yasya kāntir-vilopitā 
+śrī-kṛṣṇa-caraṇaṁ vande / rādhāliṅgita-vigraham&lt;/p&gt;
+
+&lt;p&gt;Śrī Rādhā-Vinoda-bihāri-Tattvāṣṭakam (1)&lt;/p&gt;
+
+&lt;p&gt;I venerate the feet of that Śrī Kṛṣṇa who has become so immersed in the contemplation of Śrī Rādhā that His own bodily complexion has faded to the degree that His form now appears to be fully embraced and entwined with that of Śrī Rādhā.&lt;/p&gt;
+
+&lt;p&gt;In truth, this verse acquaints us with both Śrī Rādhā-Vinoda-bihārī and Śrī Gauracandra simultaneously. Primarily, the phrase rādhāliṅgita-vigraha conveys a sense only of Śrī Rādhā-Vinoda-bihārī, that is, Śrī Kṛṣṇacandra with Śrī Rādhājī, His complexion eclipsed by Hers. A description of this event is found in the Śrī Varāha-saṁhitā.&lt;/p&gt;
+
+&lt;p&gt;Once, when a sulking Śrīmatī Rādhājī left the arena of the rāsa dance with Her girlfriends, Śrī Kṛṣṇacandra became overwhelmed with longing for Her. In the torment of separation from Her, He searched for Her everywhere until He became immersed in longing for Her at the base of a tamarind tree on the bank of the Yamunā river. His rapture was so profound that His limbs became covered with Śrīmatī Rādhājī’s golden hue. Thus He came to bear Her mark; He became Śrī Rādhā’s Kṛṣṇa. Meanwhile, as Śrī Rādhājī was searching for Śrī Kṛṣṇa with Her friends, She arrived at that spot and was astonished to see Him with that golden complexion. Śrī Vinoda Mañjarī witnessed this supremely wondrous meeting of Śrī Rādhā and Kṛṣṇa and, in the form of Śrī Keśava Gosvāmī, revealed this unprecedented form on this earthly plane.&lt;/p&gt;
+
+&lt;p&gt;Other meanings of rādhāliṅgita-vigraha&lt;/p&gt;
+
+&lt;p&gt;Second, rādhāliṅgita-vigraha refers to Śrī Gauracandra as the united form of Śrī Rādhā and Kṛṣṇa. Śrī Jayadeva Gosvāmī hinted at this when he wrote: “gāḍham-āśliṣṭau nirbhedamāptau – when embracing so intensely, it as if They become one”. When śakti, the sum of all energy, and śaktimān, the vessel of that energy, are wrapped in an intense embrace, They become mutually indistinguishable, and that is the form of Śrī Gaura. Śrīla Keśava Gosvāmī described this as follows:&lt;/p&gt;
+
+&lt;p&gt;cil-līlā-mithunaṁ tattvaṁ / bhedābhedam-acintyakam&lt;/p&gt;
+
+&lt;p&gt;Śrī Rādhā-Vinoda-bihāri-Tattvāṣṭakam (3)&lt;/p&gt;
+
+&lt;p&gt;Śrī Kṛṣṇa, the Supreme Person who orchestrates the pastimes of divinity, manifests in the united form of śakti and śaktimān as Śrī Gauracandra, who thus personifies acintya-bhedābheda-tattva [or the principle of simultaneous oneness and difference that characterizes the true nature of reality].&lt;/p&gt;
+
+&lt;p&gt;Third, āṅ in the word āliṅgita (āṅ + liṅgita) means “complete, boundary, limit, diffusion, extensiveness,” etc. And so it follows that rādhāliṅgita-vigraha means that Śrī Rādhā’s golden complexion pervades Śrī Kṛṣṇa, from His head to His toes, and that Her bhāva (mood) reaches His heart. It is this Śrī Kṛṣṇa, marked by this unique speciality, who is Śrī Śacinandana Gaurahari.&lt;/p&gt;
+
+&lt;p&gt;Śrī Kṛṣṇa is a brahmacārī&lt;/p&gt;
+
+&lt;p&gt;Shifting topics somewhat to illustrate the unique wonder of Śrī Rādhā-Vinoda-bihārī’s form, we find a notable remark in Gopāla-tāpanī Upaniṣad stating that Śrī Kṛṣṇacandra is a brahmacārī. In a worldly sense, brahmacaryā is the first of the four stations of life in Vedic society, a state in which the individual is very pure, innocent and free from gross lust. The fact that Śrī Kṛṣṇa is a brahmacārī reveals the glories of the gopīs of Vraja as supremely pure, faultless, and devoid of even the scent of lust.&lt;/p&gt;
+
+&lt;p&gt;sahaja gopīra prema, nahe prākṛta kāma&lt;/p&gt;
+
+&lt;p&gt;The pure love of gopis is spontaneous and is not mundane lust.&lt;/p&gt;
+
+&lt;p&gt;akaitava kṛṣṇa-prema,       jeno jāmbu-nada hema
+sei premā nṛloke nā haya&lt;/p&gt;
+
+&lt;p&gt;Śrī Caitanya-caritāmṛta (Madhya-līlā 2.43)&lt;/p&gt;
+
+&lt;p&gt;Pure love for Kṛṣṇa is free from all hypocrisy, pure like the gold of the Jāmbu river. Such love does not exist in the realm of men.&lt;/p&gt;
+
+&lt;p&gt;It follows therefore that Śrī Kṛṣṇa’s position as a brahmacārī cannot be appreciated by the mundane perception of the human world.&lt;/p&gt;
+
+&lt;p&gt;Brahmacaryā does not only mean to be devoid of lust. One who forever revels in the names, forms, qualities and pastimes of Parabrahma, the Supreme Lord, is truly a brahmacārī to the core, a brahmacārī in the ultimate spiritual sense. [Brahma refers to Supreme Reality and cārī means “revels in”.] From this perspective, the brahmacaryā of the residents of Vraja is millions of times greater than that of the Four Kumāras who are celibate from birth and for eternity. And among the residents of Vraja, the most exalted are the Vraja-devīs, or goddesses of Vraja, who are forever immersed in serving Kṛṣṇa in amorous love. But this still begs the question that if Śrī Kṛṣṇa is Himself Parabrahma, how is He a brahmacārī? [How does He revel in Himself?] Śrī Nārada-pañcarātra provides an illuminating point to reconcile this query:&lt;/p&gt;
+
+&lt;p&gt;yathā brahma-svarūpa śrī kṛṣṇaḥ prakṛteḥ paraḥ 
+tathā brahma-svarūpā rādhikā prakṛteḥ parā&lt;/p&gt;
+
+&lt;p&gt;Just as Śrī Kṛṣṇa, as the personification and fullest expression of brahma, is beyond the material energy, so Śrīmatī Rādhikā too is the utmost personification of brahma and beyond the material energy. [Śrī Kṛṣṇa is the viṣaya-tattva or objective principle of that divinity, while Śrī Rādhā is the āśraya-tattva, or subjective principle.]&lt;/p&gt;
+
+&lt;p&gt;Śrī Kṛṣṇa is self-satisfied (ātmārāma), but He also delights in divine pastimes and is therefore also līlā-rāma. Both these states of being are eternal and exist simultaneously. As ātmārāma, He delights in the unmanifest state of His svarūpa-śakti, and as līlārāma, He delights in the manifest state of His svarūpa-śakti.&lt;/p&gt;
+
+&lt;p&gt;ei mata jagatera sukhe āmi hetu
+rādhikāra rūpa-guṇa āmāra jīvātu&lt;/p&gt;
+
+&lt;p&gt;Śrī Caitanya-caritāmṛta (Ādi-līlā 4.248)&lt;/p&gt;
+
+&lt;p&gt;Thus it is I who am the cause of happiness in this world. Yet Rādhikā’s form and qualities are My very life.&lt;/p&gt;
+
+&lt;p&gt;Thus, in both states of Śrī Kṛṣṇa, ātmārāma and līlārāma, Śrīmatī Rādhikā, who is brahma-svarūpā and the embodiment of svarūpa-śakti, is the object of His revelry. Thus Śrī Kṛṣṇa is eternally a brahmacārī. Without being acquainted with the nuances of śakti, one cannot fathom the nature of the ultimate wielder of śakti, śaktimān. Though Śrī Kṛṣṇa conducts śakti, He is forever covered by it. This is what defines His quality of brahmacaryā.&lt;/p&gt;
+
+&lt;p&gt;Śrī Śrī Rādhā-Vinoda-bihārī is the greatest expression of Kṛṣṇa’s brahmacaryā&lt;/p&gt;
+
+&lt;p&gt;The most exalted of Śrī Kṛṣṇa’s pastimes are those He enacts as a paramour in the land of Vraja. Just as the word upapati (paramour) has the word pati in it (meaning “husband”), the love of paramours (parakīyatā) automatically encompasses the love experienced within matrimony (svakīyatā).  Matrimonial love, however, lacks paramour love. The expression of parakīya is therefore considered whole and complete. This is why the utmost viṣaya, Śrī Kṛṣṇa, and the utmost āśraya, Śrīmatī Rādhikā, embrace the utmost conception, parakīya-bhāva. In truth, however, this paramour affection is not the cause of the Vraja gopis’ eternal and unprecedented love but is an indicator of it. Becoming more and more immersed in that pārakīya-bhāva, Śrī Kṛṣṇa went from relishing the joys of being the object of love, the beloved, to experiencing how the delight experienced by the āśraya’s love was far greater.&lt;/p&gt;
+
+&lt;p&gt;viṣaya-jātīya sukha āmāra āsvāda 
+āmā haite koṭi-guṇa āśrayera āhlāda&lt;/p&gt;
+
+&lt;p&gt;Śrī Caitanya-caritāmṛta (Ādi-līlā 4.133)&lt;/p&gt;
+
+&lt;p&gt;The pleasure of the viṣaya is what I personally relish, but the delight of the āśraya is millions of times greater than that.&lt;/p&gt;
+
+&lt;p&gt;It would not be exaggerating to say that Śrī Kṛṣṇa does not feel this way when experiencing the pastimes of matrimony (svakīyatā). Because of the extensiveness and immensity of the bliss of the abode of prema (āśraya-vinoda), He became overwhelmed with longing to taste it.&lt;/p&gt;
+
+&lt;p&gt;āśraya-jātīya sukha pāite mana dhāya 
+jatne āsvādite nāri ki kori upāya&lt;/p&gt;
+
+&lt;p&gt;vicāra koriye jadi āsvāda upāya
+rādhikā-svarūpa haite tabe mana dhāya&lt;/p&gt;
+
+&lt;p&gt;Śrī Caitanya-caritāmṛta (Ādi-līlā 4.134, 145)&lt;/p&gt;
+
+&lt;p&gt;[Śrī Kṛṣṇa thinks:] My mind is chasing the joy that the āśraya-jātīya (the lover, or active subject of prema) feels. Despite My efforts to do so, I cannot. What can I do? When I deliberate on how I might taste that joy, My mind races toward the idea of assuming Rādhikā’s nature.”&lt;/p&gt;
+
+&lt;p&gt;This sort of greed is in actuality the ultimate result of Śrī Kṛṣṇa’s brahmacaryā. What is the deep pleasure that Rādhā feels? Driven by this greed Śrī Kṛṣṇa went to revel (vihāra) in that deep pleasure (vinoda) of Rādhā and lost His own mood and complexion. That is who Śrī Rādhā-Vinoda-bihārī is and that is who Śrī Gauracandra is.&lt;/p&gt;
+
+&lt;p&gt;śrī rādhāyāḥ praṇaya-mahimā kīdṛśo vānayaivā-
+svādayo yenādbhuta-madhurimā kīdṛśo vā madīyaḥ 
+saukhyaṁ cāsyā mad-anubhavataḥ kīdṛśaṁ veti lobhāt
+tad-bhāvāḍhyaḥ samajani śacī-garbha-sindhau harīnduḥ&lt;/p&gt;
+
+&lt;p&gt;Śrī Caitanya-caritāmṛta (Ādi-līlā 1.6)&lt;/p&gt;
+
+&lt;p&gt;“How great is the glory of the deeply intense love (praṇaya) of Śrī Rādhā? What is the nature of My astonishing sweetness, which She alone relishes? And what special kind of happiness does She experience upon tasting My sweetness?” Intense greed to taste these three things arose within the heart of Śrī Kṛṣṇa, and to fulfil that intense desire, He took birth from the womb of Mother Śrī Śacī, like the full moon rising from the ocean.&lt;/p&gt;
+
+&lt;p&gt;Śrīla Keśava Gosvāmī Prabhu manifested service to Śrī Rādhā-Vinoda-bihārī in this world, defeating the notion of impersonal, monistic brahmacaryā and inspiring all towards cultivation of aprākṛta-brahmacaryā. He thus discourages the people of the world from nurturing the worthless egotistical notions they interpret from statements like “ahaṁ brahmāsmi – I am brahma”. There is no need for the soul to long to become brahma and strive to merge with Parabrahma. Let all souls instead immerse themselves in the ecstasy of the āśraya, which is inherent in their true nature and identity, under the guidance of the root āśraya-vigraha figure, Śrī Rādhārāṇī, who experiences the ecstasy that Parabrahma Himself hankers to taste.&lt;/p&gt;
+
+&lt;p&gt;The exclusive speciality of Śrī Rādhā-Vinoda-bihārī&lt;/p&gt;
+
+&lt;p&gt;Śrī Rādhā Madana-Mohana, Śrī Rādhā Govinda, Śrī Rādhā Gopīnātha – these three deities who represent the principles of sambandha, abhidheya, prayojana, along with Śrī Rādhā-ramaṇa, who is famous as Their combined form, and also all the other deity forms of Śrī Kṛṣṇacandra, represent His absorption in relishing only viṣaya-vinoda, the pleasure enjoyed by the object of love. Even the “melted by love” form of Śrī Jagannātha, though assumed due to separation from Rādhā, does not arise from relishing the deep pleasure experienced by Rādhā (rādhā-vinoda). It is for this reason that the form of Śrī Rādhā-Vinoda-bihārī represents a unique speciality in Gauḍīya society. Unfortunately, however, certain so-called Gauḍīyas, out of ignorance and insanity born of envy, say that Śrī Kṛṣṇa’s absorption in Rādhā’s mood and His acceptance of Her complexion was a one-time occurrence, and therefore, eternal service to such a manifestation is not possible.&lt;/p&gt;
+
+&lt;p&gt;This is a symptom of misfortune. This sort of knowledge is akṣaja, influenced by mundane sensory perception and can never appreciate the simultaneous ever-freshness and eternality of Bhagavān’s pastimes. By those standards, they would regard Śrī Rādhā-Dāmodara’s dāma-bandhana-līlā as a one-time occurrence as well, and thus also deem Śrīla Jīva Gosvāmī’s establishment of service to Śrī Rādhā-Dāmodara as improper. The limited intelligence of such persons would dictate that if Śrī Rādhā Madana-mohana are to be served eternally, then the eternality of service to Śrī Rādhā-Govinda is not simultaneously possible. They cannot conceive of the fact that because there are so many different pastimes, there are so many different eternally worshipful deity forms. These people seem unable to see that in Śrī Puruṣottama-dhāma, to either side of the ancient deity of Śrī Ṭoṭā Gopīnātha, are dark-complexioned Śrīmatī Rādhikā and Śrīmatī Lalitā, and in Vraja-dhāma, in Nanda-grāma, the Baladeva who stands beside Śrī Kṛṣṇa has the same dark complexion. In truth, perceiving Bhagavān’s pastimes as illusory or temporary is due to the influence of Māyāvāda.&lt;/p&gt;
+
+&lt;p&gt;māyāvāda doṣa jāra hṛdaye paśilo
+kutarke hṛdaya tā’ra bajra-sama bhelo&lt;/p&gt;
+
+&lt;p&gt;Śaraṇāgati (5.3.5)&lt;/p&gt;
+
+&lt;p&gt;A heart in which the flaw of Māyāvāda has entered becomes embroiled in false logic and becomes as harsh as a thunderbolt.&lt;/p&gt;
+
+&lt;p&gt;Serving Śrī Rādhā-Vinoda-bihārī leads to service in both realms of Goloka&lt;/p&gt;
+
+&lt;p&gt;There are two realms that exist within Goloka Vṛndāvana. One is called kṛṣṇa-pīṭha and the other gaura-pīṭha. The Lord of both of these realms is Śrī Kṛṣṇa. In relation to these two states that the Supreme Truth (para-tattva) exists in, Śrīla Keśava Gosvāmī Prabhu has said:&lt;/p&gt;
+
+&lt;p&gt;tattvam-ekaṁ paraṁ vidyāl- / līlayā tad-dvidhā-sthitam
+gauraḥ kṛṣṇaḥ svayaṁ hy etad / ubhāv ubhayam āpnutaḥ&lt;/p&gt;
+
+&lt;p&gt;Śrī Rādhā-vinodabihāri-Tattvāṣṭakam (4)&lt;/p&gt;
+
+&lt;p&gt;The Supreme Truth is one; however, through different pastimes, that Truth manifests as and exists in two different and individual forms as Śrī Gaura and Śrī Kṛṣṇa. They are both the Supreme Truth and Entity. In principle, Gaura is Kṛṣṇa Himself. Both of these forms are inextricably linked. Śrī Gaurasundara becomes Śyāmasundara Śrī Kṛṣṇa and Śyāmasundara Śrī Kṛṣṇa once again becomes Śrī Gaurasundara.&lt;/p&gt;
+
+&lt;p&gt;When absorbed in pastimes of union (sambhoga-līla), that para-tattva is Śrī Vrajendra-nandana in kṛṣṇa-pīṭha. And when He becomes absorbed in pastimes of separation (vipralambha-līlā), He is Śrī Śacīnandana in gaura-pīṭha. This union and separation nourish each other, and thus Śrī Kṛṣṇa and Śrī Gaura share this duality.&lt;/p&gt;
+
+&lt;p&gt;This wonder cannot be conjured up or appreciated by any taxing feat of the imagination. These pastimes are simultaneous and eternal, and the story of Śrī Rādhā-Vinoda-bihārī is like a yoga-sūtra, an eloquent cipher that encapsulates both pastimes. Therefore, through serving Śrī Rādhā-Vinoda-bihārī, one attains a revelation of both pastimes and gains the opportunity to relish the joy of service in both kṛṣṇa-pīṭha and gaura-pīṭha. A person who worships only Gaura during his sādhana will, in the stage of perfection, attain service only in gaura-pīṭha. And someone who worships only Kṛṣṇa during his sādhana, likewise attains only kṛṣṇa-pīṭha. By engaging in the service of Śrī Rādhā Vinoda-bihārī, however, the sādhaka resides in both realms when he attains perfection and becomes submerged in the bliss of serving both Śrī Śyāmasundara and Śrī Gaurasundara. This is the special wonder of Śrī Śrīla Keśava Gosvāmī Prabhu’s role in the promulgation of prema. This is the most esoteric and exalted attainment in the process of bhajana performed by the followers of Śrī Rūpa Gosvāmī.&lt;/p&gt;
+
+&lt;p&gt;Translated from Śrī Gauḍīya-patrikā 
+By the Rays of The Harmonist team&lt;/p&gt;
+
+&lt;p&gt;Endnote&lt;/p&gt;
+
+&lt;p&gt;Śrīla Bhaktisiddhānta Sarasvatī Ṭhākura taught that there are five kinds of knowledge: pratyakṣa [akṣaja], parokṣa, aparokṣa, adhokṣaja, and aprākṛta. The knowledge of everything we see and realize by our direct experience is called pratyakṣa [or akṣaja]. But this is false [not complete, or true, knowledge].&lt;/p&gt;
+
+&lt;p&gt;Then, parokṣa. We don’t see Svarga, heaven, but we believe in it. There is also a history of Svarga. We will have to accept Svarga, although we don’t see it. We hear that if a man is a thief, a dacoit, a debauch, and so on, he will have to go to naraka, hell. On the other hand, if he is pious, he will go to Svarga and there he will be very happy. This knowledge is called parokṣa.&lt;/p&gt;
+
+&lt;p&gt;Then, aparokṣa. This is the knowledge taught by Śaṅkarācārya. One day we will have to die, and we will have to give up everything in this world. Our beauty will go, our body will go, whatever we are collecting will go, and everything else will go. We cannot take anything, neither our pennies nor our pens, from this world.  So why are we collecting all these bogus things? Why? An intelligent person thinks about this and becomes detached, but a bogus, foolish person remains attached to sense gratification.&lt;/p&gt;
+
+&lt;p&gt;Then, adhokṣaja. What is adhokṣaja? Adhokṣaja is Vaikuṇṭha, that place where there is no kāla, time. There is only the eternal present. There is no birth and death, and no suffering and sorrow. Nothing bad is there. In that abode there is so much opulence, and everyone there prays to Nārāyaṇa.&lt;/p&gt;
+
+&lt;p&gt;There is something higher than this, however, and Śrīla Bhaktisiddhānta Sarasvatī Ṭhākura has taught that this most superior truth is called aprākṛta. Aprākṛta is that realm where vraja-līlā is performed. Kṛṣṇa is sometimes like a baby there. There He is controlled by His father and mother, He is controlled by His beloved gopīs, and He is controlled by his friends. No one can ever imagine such very, very sweet pastimes. We should try to know this aprākṛta. We should try to serve this aprākṛta Kṛṣṇa who is with so many gopīs, with His father and mother, with His sakhās, and with all His cows and very sweet cowherding pastimes. This is the aim and object of our life: service to this Kṛṣṇa. This is aprākṛta-jñāna.&lt;/p&gt;
+
+&lt;p&gt;[Excerpt from a lecture by Śrī Śrīmad Bhaktivedānta Nārāyaṇa Gosvāmī Mahārāja entitled: “Giver of Mādhurya-bhakti, The Appearance Day of Śrīla Bhaktisiddhānta Sarasvatī Ṭhākura Prabhupāda”, delivered in Singapore, 13 February, 2001. Transcribed and edited by the Harikatha team.]&lt;/p&gt;
+</description>
+        <pubDate>Sun, 02 Aug 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/vinoda-and-vinoda-bihari/</link>
+        <guid isPermaLink="true">http://localhost:4000/vinoda-and-vinoda-bihari/</guid>
+        
+        
+        <category>Srila Gurudeva Articles</category>
+        
+        <category>BV Vaman Goswami Maharaj</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>The sole support of the sadhaka</title>
+        <description>&lt;p&gt;śrī śrī guru-gaurāṅgau jayataḥ&lt;/p&gt;
+
+&lt;p&gt;Śrī Vāsudeva Gauḓīya Maṭha
+P.O. Vāsugāon (Gowālpāḍā) Assam
+12 June 1971&lt;/p&gt;
+
+&lt;p&gt;Dear recipient of my affection,&lt;/p&gt;
+
+&lt;p&gt;It is natural for the heart to become restless when there is no news of a dear one.&lt;/p&gt;
+
+&lt;p&gt;As long as the body, which is made of five elements, remains, both its health and illness remain. For one situated in a [human] body, endeavouring for the well-being of the embodied self is indeed the symptom of intelligence. “Yāvat jīvo nivasati dehe, kuśalaṁ tāvat pṛcchati gehe – A person’s well-being is inquired about in his own house for as long as his soul resides in his body.” The soul bound by māyā, however, cannot know, nor does he have the capacity to understand, what is best for the self. One who is absorbed in the cultivation of the self (ātmānuśīlana) is truly learned and a seer of truth (tattva-darśī).&lt;/p&gt;
+
+&lt;p&gt;The merciful glance of guru and Vaiṣṇavas is cast upon the spiritual practitioner (sādhaka) always. Their blessing makes possible everything that is impossible. It can enable even a cripple to cross mountains and can render a mute voluble. By eagerly engaging in service to Śrī Hari, guru and Vaiṣṇavas with a simple heart, and continuously performing śrī nāma-bhajana, all anathas are driven far away. By daily chanting the holy name with care and attention, regularly deliberating upon the devotional scriptures and seizing any opportunity to hear hari-kathā,one makes advancement on the path of devotion.&lt;/p&gt;
+
+&lt;p&gt;By performing worship through processes such as arcana, one’s consciousness is purified and the fickle mind becomes tranquil. Someone puffed up with false ego cannot, despite trying, approach the substantial reality (tattva-vastu) by their own endeavour alone. For this, the grace of guru and Vaiṣṇavas is also required. Perfection is reached through a combination of endeavour (sādhana) and grace (kṛpā). Śrī Kṛṣṇa’s pastime of being bound around the waist (dāma-bandhana-līlā) is evidences of this.&lt;/p&gt;
+
+&lt;p&gt;When a mood of humility (dainya-bhāva) enters the heart of the sādhaka, he is considered a suitable recipient of guru and Vaiṣṇavas’ grace. The magnanimity of great souls is celebrated by all. The twenty-six qualities of sādhus are indeed the radiant illustration of this magnanimity. Even though these qualities – such as mercy (dayā), magnanimity (vadānyatā), compassion (karuṇā) and respecting all without expecting respect in return (amānī-mānada-dharma) – are ideal for the people of this world, the quality of one-pointed surrender to Kṛṣṇa (kṛṣṇaika-śaraṇatā) is foremost among them.&lt;/p&gt;
+
+&lt;p&gt;Only he who is fully reliant on the grace of the Lord and who is the embodiment of the six limbs of surrender can give instructions on service to Bhagavān (the Lord) and to bhāgavata (devotional scriptures and devotees), and he alone can be called Gosvāmī. Such a bona fide guru sees all the people of the world as servants of the Lord, and even considers those who have exclusively accepted grace and shelter from him [his disciples] as opulence meant for serving Bhagavān.&lt;/p&gt;
+
+&lt;p&gt;The bona fide guru does not make anyone his disciple. Rather, his heart is pervaded with a desire to become a true disciple himself. Those who consider themselves qualified to discipline their attendants (sevakas) are conceited and can never be called guru. However, that person is a true Vaiṣṇava and a bona fide (sad) guru when, concealed within his natural respect for all and lack of any expectiion of respect in return (amānī-mānada-dharma) and his mood of feeling lower than straw (tṛṇādapi sunīca), is the mood of vajrādapi kaṭhorāṇi mṛduni kusumādapi – being simultaneously harder than a thunderbolt and softer than a flower.&lt;/p&gt;
+
+&lt;p&gt;By the mercy of such a great soul, even those who are devoid of bhakti and who are sinful and godless attain complete, eternal auspiciousness. We have heard from the lips of sādhu-guru-vaiṣṇavas that even the demigods do not have the capacity to recognize a Vaiṣṇava – vaiṣṇava cinite nāre dever śakati. How should we behave toward someone who exhibits envy toward bona fide gurus and Vaiṣṇavas? The Vaiṣṇava mahājanas have informed us of the following: “vaiṣṇava-caritra, sarvadā pavitra, ĵei ninde hiṁsā kôri’ bhakativinoda nā sambhāṣe tāre, thāke sadā maun dhôri – Bhaktivinoda never converses with those who, out of envy, criticise and harm Vaiṣṇavas, who are always of pure character. Instead, he remains silent” (Kalyāṇa-kalpataru, Prārthanā Lālasāmayī). This is the meaning of giving up bad association (asat-saṅga tyāga).&lt;/p&gt;
+
+&lt;p&gt;Devotees welcome simple faith in devotion (śraddhā), or a devotional mood, but others greatly revere formality, or the etiquette of proper social dealings. Formality and frankness are complete opposites. People in general love worldly social customs. For them, this defines the word civilization, and they use the word ‘barbarian’ to ridicule others [who do not observe the same formalities]. Nowadays, simplicity is taken to mean stupidity. In this way, the difference between the material and the spiritual worlds is like the difference between heaven and hell.&lt;/p&gt;
+
+&lt;p&gt;yā niśā sarva-bhūtānāṁ / tasyāṁ jāgarti saṁyamī
+yasyāṁ jāgrati bhūtāni / sā niśā paśyato muneḥ&lt;/p&gt;
+
+&lt;p&gt;Bhagavad-gītā (2.62)&lt;/p&gt;
+
+&lt;p&gt;[Spiritual intelligence, which is directed toward the soul, is like night for materialistic common people, who are enchanted by the material energy. One who is stitha-prajña, however, remains awake in that intelligence. And when intelligence is absorbed in sense objects, the common person remains awake. For the sage who perceives transcendental Reality, that consciousness is the darkest night. In other words, such a person accepts sense objects in an appropriate way, without being attached to them.]&lt;/p&gt;
+
+&lt;p&gt;By deliberating on this verse, you can understand this comprehensively. Bhakti is the mood, or language, of the heart. The presence of bhakti in a stanza or expression gives it success and meaning. Without devotion, any charming verse or composition is meaningless and like a pilgrimage place for crows. “Bhakti-puṣpa kothā pāi, bhakati candana nāi, ki diye pūjibô āmi? – Where can I find the flower of devotion? Without the sandalwood paste of devotion, with what shall I perform worship?” In this way, the practitioner aspiring for bhakti submits his offering of faith at the feet of the Lord.&lt;/p&gt;
+
+&lt;p&gt;By the causeless mercy of guru and Vaiṣṇavas, linguistic knowledge and fine speech manifest. Dhruva, upon attaining the audience of Śrī Hari, whose eyes are like lotus petals, desired to offer prayers to Him. The Lord touched His conch, which is imbued with all the knowledge of the Vedas, to the cheek of Dhruva. Thereafter, Dhruva was no longer lost for words and proceeded to sing to his heart’s content an unstoppable stream of verse in praise of Śrī Hari’s transcendental qualities.&lt;/p&gt;
+
+&lt;p&gt;Hence, great Vaiṣṇava personalities have sung [in the concluding stanza of “Vaiṣṇava-vandana”]: “tathāpi mūkera bhāgya manera ullāsa doṣa kṣami’ mo-adhame karô nija dāsa – yet, even one who is dumb [such as me] is greatly fortunate and joyful at heart [to have an opportunity to glorify Vaiṣṇavas]. [O Vaiṣṇavas,] forgive the faults of this fallen soul and make me your own servant.”&lt;/p&gt;
+
+&lt;p&gt;And: “śrī guru-caraṇa-padma, kevala bhakati-sadma, vandõ muĩ sāvadhāna-mate – the lotus feet of śrī guru are the treasure house of unalloyed prema-bhakti. I worship those lotus feet with great care.”&lt;/p&gt;
+
+&lt;p&gt;Moreover: “guru-vaiṣṇava guṇa gāna, korile jīver trāṇa – by glorifying guru and Vaiṣṇavas, the jīva is delivered from material existence.”&lt;/p&gt;
+
+&lt;p&gt;It is natural for everyone to feel eager to sing these glories and to feel capable of doing so. Still, be careful of offences that are caused by a lack of eloquence – or, in other words, foolishness. It is necessary to take shelter of caution. However, if a person’s nature is simple, guru and Vaiṣṇavas do not consider any of his offences, faults or shortcomings. This alone is our hope and refuge.&lt;/p&gt;
+
+&lt;p&gt;Through the indwelling Supersoul (antaryāmi), Śrī Hari, guru and Vaiṣṇavas fill the practitioners heart with inspiration. There is no reason to not believe this. To submit [unto guru and Vaiṣṇavas] all the feelings in one’s heart, without duplicity, is indeed complete surrender (śaranāgatī) and is what is meant by fully following in their footsteps (anugatya). In this way, one’s life becomes truly blessed, and the jīva’s life is fulfilled and successful. The assuring words of guru and Vaiṣṇavas lift a devotee to the highest summit of sādhana-bhajana.&lt;/p&gt;
+
+&lt;p&gt;By performing one’s sādhana with niṣṭhā, one attains grace (kṛpā). That grace, which is the living being’s good fortune, arises in the sky of his spiritual destiny. Only in the radiance of guru and Kṛṣṇa’s grace may one happen to attain their audience (darśana) in actuality. For this, also, one needs patience and steadfastness.&lt;/p&gt;
+
+&lt;p&gt;“Nitāiyer caraṇa satya, tā̃hāra sevaka nitya – the lotus feet of Nitāi are eternal truth, and His servitors are eternally His.” Similarly, the relationship between guru and disciple is eternal truth. The relationship between the one pointed servant (sevaka) and the master (sevya) is demonstrated in the following dealings:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;seī bhakta—dhanya, ĵe nā chāḓe prabhur caraṇa&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;sei prabhu—dhanya, ĵe nā chāḓe nija-jana&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;durdaive sevaka ĵadi ĵāya anya sthāne&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;sei prabu dhanya, tāre cule dhôri’ āne&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;That devotee is blessed who never leaves the feet of his master. That master is virtuous who never abandons those who are his own. If, by bad fortune, the servant leaves him and goes elsewhere, that master is glorious who drags him back by the hair.&lt;/p&gt;
+
+&lt;p&gt;Thus, I conclude
+Your ever well-wisher,
+Śrī Bhaktivedānta Vāmana&lt;/p&gt;
+
+&lt;p&gt;This letter was written to Śrī-yukta Umā dīdī.
+Translated from Śrīla Bhaktivedānta Vāmana Gosvāmī Mahārāja’s Patrāvalī
+by the Rays of The Harmonist team&lt;/p&gt;
+</description>
+        <pubDate>Sun, 02 Aug 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/the-sole-support-of-the-sadhaka/</link>
+        <guid isPermaLink="true">http://localhost:4000/the-sole-support-of-the-sadhaka/</guid>
+        
+        
+        <category>Srila Gurudeva Articles</category>
+        
+        <category>BV Vaman Goswami Maharaj</category>
+        
+      </item>
+    
+      <item>
+        <title>Somehow absorb your mind in Krishna</title>
+        <description>&lt;p&gt;Śrī Devānanda Gauḍīya Maṭha
+Tegharipāḍā, Navadvīpa (Nadīyā)
+11 July, 1976&lt;/p&gt;
+
+&lt;p&gt;Dear object of my affection, Umā&lt;/p&gt;
+
+&lt;p&gt;Even if you have nothing, no wealth, no education or intelligence, as long as you have your mind and your life, it will do [to allow you to serve]. The inclination to serve (sevā-vṛtti) does not depend on an exchange of any material object. It is perfect in itself and independent. You cannot use any mundane object as currency to gain the inclination for bhakti. Mind, intelligence and ego – each have their topmost [or transcendental] potential (vidvat-rūḍhī). However, someone [with a material mind, intelligence and ego] may be seen imitating the eight external symptoms of transcendental ecstasy (aṣṭa-sāttvika-vikāra), such as trembling, horripilation, tears and so on. Considering all this, the sādhaka or sādhikā must tread the path of bhajana with great care. We must be cautious not to condone prākṛta-sahajiyā-vāda1, karma-jaḍa-smārtta-vāda2, or cid-jaḍa-samanvaya-vāda3 and thus secretly end up idealizing various mentalities antagonistic to bhakti.&lt;/p&gt;
+
+&lt;p&gt;–&lt;/p&gt;
+
+&lt;p&gt;1 To be distinguished from genuine self-realized souls, or aprākṛta-sahajiyās, the infamous sahajīyā cults of medieval Bengal draw on Buddhist, Vaiṣṇava and Islamic mysticism, or tantra, to ritualize the sexual act as a hasty means of enlightenment, recklessly blurring necessary distinctions between the divine and the mundane, reality and fantasy, and ultimately, pure love and the mundane exploitation of the sexual act, thereby causing havoc in civilized society. –Ed.&lt;/p&gt;
+
+&lt;p&gt;2 Brahmin ritualists, who worship five main Hindu deities in a thoroughly impersonal manner, drawing their conceptions from smṛti-śāstra, or recorded liturgy, are fully confined to performing ritualistic activities as a means to rather materialistic ends. –Ed.&lt;/p&gt;
+
+&lt;p&gt;3 A doctrine rampant in many new so-called religions lack solid philosophical foundation and which seek to homogenize spirit and matter. –Ed.&lt;/p&gt;
+
+&lt;p&gt;What is the state of liberation? The freedom from all bondage of mundane existence? It is within worldly calamity that the soul have the greatest opportunity to accept Śrī Bhagavān’s holy name. And only there [in a calamitous state] do they become exclusively focused, impatient, and overwhelmed with angst. In this world, in whatever situation we find ourselves in, we have to strive for the welfare of our souls “yena kenāpyupāyena manaḥ kṛṣṇa niveśayet – one way or another, by any means, absorb your mind in Kṛṣṇa.”&lt;/p&gt;
+
+&lt;p&gt;Feigning being a sinner and a fallen person will not make you a worthy recipient of mercy. If true and genuine humility comes, you will receive causeless mercy and compassion. That is what Śrīman Mahāprabhu has expressed by uttering “na prema gandho ’sti.…” [I do not have even a scent of prema in Me]. It would be a mistake to include what is but an inherent oversentimental predisposition among the eight transcendental ecstatic symptoms (aṣṭa-sāttvika-vikāra). Rather, it ultimately reveals itself to be nothing more than arrogance.&lt;/p&gt;
+
+&lt;p&gt;As long as the mind remains absorbed in contemplating mundane sense gratification in the form of [associating with] men or women, where is the possibility of transcendental rati, or divine love, arising? Then again, there are those who externally carry on obeying worldly customs and conventions (laukika-vyāvāharika) even after attaining a state in which they are fully overwhelmed by transcendental bhāva. If you study the third section of Jaiva-dharma and also, if you study Śrī Caitanya-caritāmṛta thoroughly, you will be able understand all these topics. It is just a matter of realization and experience.&lt;/p&gt;
+
+&lt;p&gt;If you keep getting sent there to improve your health, you ought to pay more attention to that issue. Your mother is devoted to bhajana and wants what is best for you. If unintentionally you are at fault or make some mistakes in dealing with her, she will certainly forgive you. Therefore, it would have been fine for you even if you had not accepted your self-imposed punishment to leave home. However, accepting any punishment your seniors give you to improve yourself can only result in auspiciousness, not inauspiciousness.&lt;/p&gt;
+
+&lt;p&gt;Even from afar, by mind and mood, you should string together ornaments of flowers for Mahāprabhu and send them to Him. He will accept them. Once the Guṇḍicā of the heart is thoroughly cleansed, Śrī Jagannātha Kṛṣṇacandra happily finds a place to settle there. Mādhurya-rasa maintains its superiority to that of aiśvarya, as Śrī Jagannātha-deva journeys to Śrī Vṛndāvana from Dvārakā or Kurukṣetra; this is the purpose of Ratha-yātrā. “Varaja-vipine sakhi-sātha / sevana karabũ, rādhānātha – In the forests of Vraja, I will serve with my girlfriends, O Lord of Rādhā. Kusume gā̃thabhũ hāra / tulasī-maṇi-mañjarī tāra – I will string flowers together to make a garland, with tulasī-mañjarīs for gems.”&lt;/p&gt;
+
+&lt;p&gt;As long as the heart is not raised to this transcendental state, one will not catch any glimpse of all these things. Carry on, day in and day out, maintaining your service and vows. This will satisfy Śrī Bhagavān and He will shower profuse blessings upon you. Try to be content with whatever situation He has put you in. What more can I say? Know that you have my affectionate blessings. Thus I conclude,&lt;/p&gt;
+
+&lt;p&gt;your eternal well-wisher,
+Śrī Bhaktivedānta Vāmana&lt;/p&gt;
+
+&lt;p&gt;Translated from the compilation of letters (Patrāvalī) of 
+Śrī Śrīmad Bhaktivedānta Vāmana Gosvāmī Mahārāj&lt;/p&gt;
+</description>
+        <pubDate>Sun, 02 Aug 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/somehow-absorb-your-mind-in-krishna/</link>
+        <guid isPermaLink="true">http://localhost:4000/somehow-absorb-your-mind-in-krishna/</guid>
+        
+        
+        <category>Srila Gurudeva Letters</category>
+        
+        <category>BV Vaman Goswami Maharaj</category>
+        
+      </item>
+    
+      <item>
+        <title>Saranagati depends on sambandha jnana</title>
+        <description>&lt;p&gt;c/o Śrī Bankebihārī Dāsādhikārī
+Jaleśvara Road, Subhāṣa-nagara
+PO: Mayanāguḍi (Jalapāiguḍi)
+Date: 15.05.1978&lt;/p&gt;
+
+&lt;p&gt;My dear…, [The recipient’s name was not published.]&lt;/p&gt;
+
+&lt;p&gt;The idea that the conditioned soul shall forever remain in a state of material bondage and will never endeavor to liberate himself is baseless. While the living entity is in a materially conditioned state, all his thoughts, moods and activities are inherently full of mundane conceptions. To transcend this material or mundane state is indeed the primary objective of performing sādhana-bhajana.&lt;/p&gt;
+
+&lt;p&gt;Direct audience (darśana) of śrī guru, the Vaiṣṇavas and their instructions and directions is certainly the most valuable treasure for a spiritual practitioner (sādhaka). One only receives the opportunity and good fortune of their divine association as a result of spiritual merits accumulated over many, many lifetimes.&lt;/p&gt;
+
+&lt;p&gt;It is of great benefit if all our pride, our distress, our lamentation and so on are centered solely around śrī guru and Vaiṣṇavas, because śrī guru and Vaiṣṇavas are our only true kinsmen and our only real well-wishers in the prison-house of this material world:&lt;/p&gt;
+
+&lt;p&gt;tava nija-jana parama-bāndhava, samsāra-kārāgāre&lt;/p&gt;
+
+&lt;p&gt;Śrī Gaura, Your associates are my greatest kinsmen in this prison-house of material existence.&lt;/p&gt;
+
+&lt;p&gt;‘Ohe! Premera Ṭhākura Gaura’, Verse 6
+by Śrīla Bhaktivinioda Ṭhākura&lt;/p&gt;
+
+&lt;p&gt;Our so-called relatives and friends in this material world lend no importance whatsoever to these emotional states of ours, but the most munificent, all-knowing, Vaiṣṇavas understand and accept our moods and emotions and they feel aggrieved upon seeing the pain of others (they are para-duḥkha-duḥkhī). They are very intelligent and know very well how to bring steadfastness (niṣthā) and determination to the devotional practices (sādhana-bhajana) of the conditioned living entities.&lt;/p&gt;
+
+&lt;p&gt;The Vaiṣṇavas are firm and resolute in regard to the principle of rejecting unfavorable association (duḥ-saṅga). However, they are conquered by the one-pointedness of a devotee who cries for them bitterly, with a heart full of intense yearning. In response to that yearning, the Vaiṣṇavas manifest the benevolent nature of their own innate moods.&lt;/p&gt;
+
+&lt;p&gt;Therefore they are our only shelter, our only hope and the ultimate place of refuge, in all circumstances. Śrī Bhagavān Himself may break His vows for the sake of His devotees; the bhaktas are equally ready to sacrifice everything for the sake of fellow bhaktas and for the service of Bhagavān. This is the pinnacle of the innermost stage of direct perception and mutual love and affection that is achieved between the bhakta and Bhagavān.&lt;/p&gt;
+
+&lt;p&gt;Unless sambandha-jñāna, [realization of one’s transcendental relationship with Śrī Bhagavān] is awakened in one’s heart, śaraṇāgati, or self- surrender, is not possible. Only he whose mind and heart have become attached to Śrī Hari, śrī guru and the Vaiṣṇavas will feel an anxiety and eagerness in his heart to have direct audience of them (darśana). Certainly, all these subjects are realized only according to one’s qualification in sādhana-bhajana. Śrī Bhagavān will someday mercifully bestow upon you the qualification to realize all of this. Who can foretell in what form the drops of His divine mercy will be showered upon someone?&lt;/p&gt;
+
+&lt;p&gt;[Unpublished name] recently engaged in a particularly inventive service here at the maṭha, one he was not appointed to by any of the maṭha authorities. While thus engaged he pursued his own personal self-interest. When a servant is unable to or averse to following the instructions of śrī guru and the Vaiṣṇavas, and does not deliberate on those instructions, how can he possibly attain any welfare?&lt;/p&gt;
+
+&lt;p&gt;“Gurura sevaka haya mānya āpanāra – the servants of śrī guru are worthy of my respect.” If one does not take this consideration seriously to heart, and if he does not follow it in totality, it is not possible to stay in the maṭha and render service there. It is certain that such a person will subsequently enter worldly existence. He who constantly looks at the faults in others and engages in criticizing them, will very quickly find himself in a state of downfall. All his welfare, both in this world and in the next, will be destroyed.&lt;/p&gt;
+
+&lt;p&gt;On the kṛṣṇa-navami-tithi (the ninth day of the waxing moon) in the month of pauṣa [the author’s appearance day], I shall not be staying in Siliguri maṭha. At that time a preaching program has been arranged somewhere else. When I go out for preaching, it is not always feasible to say with certainty exactly where I will be staying. I can only indicate a rough outline of the itinerary.&lt;/p&gt;
+
+&lt;p&gt;When the day comes that people are able to offer true, sincere faith unto Śrī Bhagavān instead of worshipping a person or group, then their path to real welfare will become fixed. These days, the desire to attain material gain and to be worshipped and publicly recognized has extended its reach far and wide like an all-devouring blazing tongue. That desire has predisposed the conditioned living entity to indulge in trying to occupy the position of the Supreme Lord.&lt;/p&gt;
+
+&lt;p&gt;Śunyavādīs (those who follow the doctrine of voidism), nirviśeṣa-brahmavādīs (those who follow the doctrine of undifferentiated monism), cid-jaḍa-sāmanvaya-vādīs (those who try to establish unity between the spiritual and mundane), jīva-brahmaika-vādīs (those who proclaim that the infinitesimal soul and the infinite spirit are one and the same) and pañcopāsakīs (those who worship five deities – Surya, Ganeśa, Śakti, Śiva and Viṣṇu) are all representatives of atheism. While pretending to serve the Supreme Lord, they busily try to occupy His position themselves. Therefore, my only desire is that śrī guru and Vaiṣṇavas will always be glorified, and that their divine glories will be broadcast everywhere. Only then will there be true welfare for the entire world.&lt;/p&gt;
+
+&lt;p&gt;In the realm of sādhan-bhajan, offences are like fatal errors and mistakes. One must very carefully and thoroughly abandon all offences against the holy names of the Supreme Lord (nāmaparādha), offences against His transcendental abode (dhāmaparādha), and offences while rendering devotional service (sevāparādha). But it is extremely difficult to abstain from all of these in a very short span of time. Therefore, one should offer prayers to Śrī Nāma Prabhu and to Śrī Dhāma so that we can reside in Śrī Dhāma, chant the holy names and become free from our tendency to commit offences.&lt;/p&gt;
+
+&lt;p&gt;Attaining the dust of the lotus feet of śrī guru and Vaiṣṇavas and receiving their causeless mercy is the only way we will be able to realize our true ability and qualification and become established accordingly. In the realm of spirituality, material qualifications are useless and indicate conceit. My children are desirous of having my darśana. Are you also one of them? A loving father always thinks of his children’s wellbeing. Even if the father stays very far away, he can bestow auspiciousness upon his children. This too is a subject of experience. Accept my affectionate blessings.&lt;/p&gt;
+
+&lt;p&gt;Your eternal well-wisher,
+Śrī Bhaktivedānta Vamana&lt;/p&gt;
+
+&lt;p&gt;Translated by the Rays of The Harmonist team
+from Śrīla Vamana Gosvāmī Mahārājera Patrāvalī&lt;/p&gt;
+
+&lt;p&gt;cc-by-sa
+Rays of The Harmonist On-line, Year 8, Special On-line Edition, “Śaraṇāgati Depends on Sambandha-jñāna”, is licensed under a Creative Commons Attribution-Share Alike 3.0 Unported License to ensure that it is always freely available. You may redistribute this article if you include this license and attribute it to Rays of The Harmonist. Please ask for permission before using the Rays of The Harmonist banner-logo.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 02 Aug 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/saranagati-depends-on-sambandha-jnana/</link>
+        <guid isPermaLink="true">http://localhost:4000/saranagati-depends-on-sambandha-jnana/</guid>
+        
+        
+        <category>Srila Gurudeva Letters</category>
+        
+        <category>BV Vaman Goswami Maharaj</category>
+        
+      </item>
+    
+      <item>
+        <title>Bhagavan Has More Compassion For The Fallen</title>
+        <description>&lt;p&gt;C/O—Śrī Rādhe Śyāma Vasāka
+Nimānanda Cloth Stores
+Vakila-Pāḍā, P.O. Rāya-Gañja
+(West Dinājpur)&lt;/p&gt;
+
+&lt;p&gt;Date: 9 September, 1975&lt;/p&gt;
+
+&lt;p&gt;My dear object of affection [This letter was written to revered Umā dīdī],&lt;/p&gt;
+
+&lt;p&gt;“By his own will, the soul harbours millions of hankerings. Yet, without Kṛṣṇa’s Will, none bear fruit.”&lt;/p&gt;
+
+&lt;p&gt;Man’s desires and ambitions have no end, so they can never be fulfilled. However, Śrī Bhagavān fulfills the devotees’ wishes, so He is called, “bhakta-vāñcha kalpa-taru – a desire tree for His devotees’ aspirations.” His devotees, too, earn this title.&lt;/p&gt;
+
+&lt;p&gt;Because of your mother’s illness, you could not come to Navadvīpa. I understand. Your mother is a great Vaiṣṇavī and by nature very inclined to devotion. She has immovable faith and profound devotion for Śrī Hari, Guru, and Vaiṣṇavas. Therefore, you must accept that you have to sacrifice something in your efforts to serve her. Even though she does not expect you to serve and tend to her, you must certainly continue to fulfil your duty, especially since it is an activity that is favourable to bhakti.&lt;/p&gt;
+
+&lt;p&gt;“Śarirām-ādyaṁ khalu dharma-sādhanam – maintaining the body is certainly the first step in accomplishing one’s religious duties.” On one hand this statement is true, for who can perform dharma if their body falls ill? On the other hand, indulging the body’s needs on the pretence of taking care of it will turn one into an enjoyer and inevitably invite trouble.&lt;/p&gt;
+
+&lt;p&gt;Therefore, it is the crucial duty of the intelligent person who longs to perform hari-bhajana to harmonize both sides of this quandary. You are intelligent; I feel it is unnecessary for me to write anything more on this topic.&lt;/p&gt;
+
+&lt;p&gt;I understand you were very pleased to receive the letter I wrote you from Śrī Nīlācala Gauḍiya Maṭha. Only the meek, destitute and wretched are worthy of mercy. “Dinera adhika dayā karena bhagavān—paṇḍita, kulīna, dhanīra, baḍa abhimāna – Bhagavān is more merciful to the meek. The scholars, dynasty priests, and the rich are very arrogant.”&lt;/p&gt;
+
+&lt;p&gt;Therefore, they are fortunate who are blessed with the mercy of attaining the teachings and instructions of Guru and Vaiṣṇavas. We truly do not have the words to express our gratitude to śrī guru-pāda-padma and Śrī Bhagavān. If they inundate us with the appropriate sentiments and language, then everything is possible.&lt;/p&gt;
+
+&lt;p&gt;When Dhruva, a five year old boy, obtained a glimpse, or darśana, of that lotus-eyed Śrī Hari, he wanted to praise Him with hymns and prayers. Besides the mercy of Śrī Guru, there is no scope for an illiterate, uninitiated person to obtain darśana of Bhagavān. The ability to offer prayers and hymns to Bhagavān comes by His own special mercy. This, indeed, is the proper conception, or siddhānta. It is Śrī Bhagavān alone who infuses the heart of each and every soul with inspiration; He gives them speech.&lt;/p&gt;
+
+&lt;p&gt;Does a toddler who speaks in broken, half-formed words not attract the love of his mother and father? Do the toddler’s superiors judge the purity or impurity of his language or speech? Rather, it truly delights and enthuses them.&lt;/p&gt;
+
+&lt;p&gt;Go to Śrī Maṭha on a regular basis and take advantage of hearing and contemplating the hari-kathā, classes and kīrtanas. Whatever you come across in your own reading that you do not understand will easily become intelligible if you hear from the worshipful mouths of the Vaiṣṇavas, because their words and utterances possess a special potency.&lt;/p&gt;
+
+&lt;p&gt;Scripture recommends one seek the company of the sādhus through their literatures only when one is bereft of direct association of sādhus (sat-saṅga). Sādhu, Guru, and Vaiṣṇavas carry Śrī Bhagavān in their hearts. The Sādhus are Bhagavān’s heart, and Bhagavān is the Sādhus’ heart. Therefore, Vaiṣṇavas are the principal knowers of the essence of all Bhagavān’s instructions and are His encyclopaedias!&lt;/p&gt;
+
+&lt;p&gt;Becoming too trapped by or too attracted to this mundane existence creates impediments to the practice of bhajana. This is very true. It is for this reason that we are specially instructed to remain in the proximity of Vaiṣṇavas, or devotees. Attachment to the material objects of these senses is called saṁsāra, or nescient existence.&lt;/p&gt;
+
+&lt;p&gt;The transcendental object is Śrī Kṛṣṇa. In order to heighten our attraction to Him, we have to be in satsaṅga. Thus there is a difference of heaven and hell between the saṁsāra, or realm of mundane sense objects, and that of the transcendental object, Śrī Kṛṣṇa. If one serves the mundane realm of saṁsāra, a dismal nadir of a destination awaits, whereas in Kṛṣṇa’s saṁsāra, there is always benefit and elevation.&lt;/p&gt;
+
+&lt;p&gt;Therefore, scripture teaches: “kṛṣṇera saṁsāra kara chāḍi’ anācāra; jīve dayā, nāme rūci—sarva-dharma-sāra – Engage in Kṛṣṇa’s saṁsāra and give up improper behaviour. Compassion to all living entities and taste in the holy names – this is the essence of all religion.”&lt;/p&gt;
+
+&lt;p&gt;Guru, Vaiṣṇavas and Bhagavān eradicate the devotee’s heartache as antaryāmi, the inner guardians of all. If the devotee becomes fitful and anxious to attain a glimpse (darśana) of Bhagavān then Bhagavān will surely fulfil the devotee’s longing. That is why His name is Bhakta-vatsala, “He is who is partial, like an affectionate parent, to His devotees”.&lt;/p&gt;
+
+&lt;p&gt;In the mornings, once you have completed your morning functions, bathed, and completed your ahnika, it fosters auspiciousness to read and recite devotional songs and hymns or prayers. When that is finished, it is imperative to chant śrī-nāma on your beads. Prayers, expressions of humility and entreaties to śrī guru, Vaiṣṇava and Bhagavān can be found amid the collections of songs by our great predecessors, the mahājanas, songs such as Gurvvaṣṭaka, Ṣad-Gosvāmyaṣṭaka, Nityānanda and Gaurāṅga Aṣṭaka, Daśāvatāra Stotra and a multitude of praṇāma-mantras. They, also, can be repeatedly recited. Such engagement is considered one of the limbs of bhajana, by which one’s śraddhā in Śrī Bhagavān flourishes.&lt;/p&gt;
+
+&lt;p&gt;“Je jata patita haya, tava dayā tata tāya – The more one is fallen, the more compassion You [Śrī Bhagavān) have for him.” This statement is found in the utterances of the mahājanas.&lt;/p&gt;
+
+&lt;p&gt;“I am bereft of devotion and faith.” If we can speak like this from our hearts, then certainly Śrī Bhagavān will banish all of our shortcomings and grant us service to His beautiful feet, which are the abodes of fearlessness. At that time the opportunity to make the human form of life successful comes. In that state, there is no question of the worthiness of one’s sentiments, devotion or language, because Śrī Bhagavān’s mercy is causeless; it has no pre-condition.&lt;/p&gt;
+
+&lt;p&gt;“Yogyatā vicāre kichu nāhi pāī, tomāra karuṇā sāra; karuṇā nā ha’le kā̃ndiyā kā̃ndiyā, prāṇa nā rākhibo āra – When I try to discern my qualifications, I find none. Your mercy is everything to me. If you are not compassionate, I will weep and weep, and no longer maintain my life.”&lt;/p&gt;
+
+&lt;p&gt;Also: “vicārite āvahi guṇa nāhi pāobi, kṛpā kari choḍata vicāra – Upon ceaseless deliberation, I find no good qualities in myself. Therefore, please have mercy on me without consideration.” These are examples of the sādhaka’s or sādhikā’s anguished prayers, yardsticks of his or her qualification or eligibility. Thus I conclude.&lt;/p&gt;
+
+&lt;p&gt;Always aspiring for your welfare,
+Śrī Bhaktivedānta Vāmana&lt;/p&gt;
+
+&lt;p&gt;[Translated from Śrīla Vāmana Gosvāmī Mahārājera Patrāvalī]&lt;/p&gt;
+
+&lt;p&gt;Prepared by the Rays of The Harmonist team&lt;/p&gt;
+</description>
+        <pubDate>Sun, 02 Aug 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/bhagavan-Has-More-Compassion-for-the-Fallen/</link>
+        <guid isPermaLink="true">http://localhost:4000/bhagavan-Has-More-Compassion-for-the-Fallen/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>A genuine guru never hankers for profit, adoration or prestige</title>
+        <description>&lt;p&gt;All Glories to Śrī Śrī Guru and Gaurāṅga&lt;/p&gt;
+
+&lt;p&gt;Śrī Keśava Gosvāmī Gauḍīya Maṭha
+Shaktigarh, P.O. Siliguri (Darjeeling)
+13/12/1979&lt;/p&gt;
+
+&lt;p&gt;Recipient of my affection, Umā,&lt;/p&gt;
+
+&lt;p&gt;bhramibo dvādaśa vane,
+rasa-keli je je sthāne,
+premāveśe gaḍāgaḍi diyā |
+śudhāibo jane jane,
+vraja-vāsi-gaṇa sthāne,
+nivedibo caraṇe dhariyā ||&lt;/p&gt;
+
+&lt;p&gt;“I will roam the twelve forests, and wherever the Lord’s loving pastimes took place, I will roll in the dust in the rapture of divine love. I will entreat each and every person who lives in Vraja and supplicate myself, clutching their feet.”&lt;/p&gt;
+
+&lt;p&gt;Though this is the humble prayer of exalted, eternally perfected souls who have no hankering, they pray in this manner so that conditioned souls may be liberated from bondage. [In the matter of spiritual advancement] the potency and influence of place and time must be taken into account, as well as the candidate’s worthiness. In preliminary stages, although one cannot appreciate the pure transcendence of the Lord’s pastimes, a person of pure heart will obtain a glimpse of the divine Śrī Dhāma’s true form. The speciality of the cinmaya-dhāma, the realm of pure spirit, is such that it firmly establishes even those who are unworthy and ineligible in their respective spiritual qualification.&lt;/p&gt;
+
+&lt;p&gt;As one understands the forests of Gauḍa and Vraja to be identical, one gains the eligibility to live within the Śrī Dhāma and comes to realize its transcendent, true form. To attain the service of the youthful couple of Vraja – Śrī Śrī Rādhā Govinda – under the guidance of Their beloved maidservants is the pinnacle of all achievement.&lt;/p&gt;
+
+&lt;p&gt;Prior to last year’s Dola festival, I saw several proofs of the annual Śrī Caitanya-pañjikā calendar. None of the proofs for the month of Agrahāyaṇa (December–January) and onwards were shown to me.*&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Śrīla Mahārāja’s disciples avoided showing him any of the drafts for the Agrahāyaṇaperiod (December–January), because they had secretly included his appearance day.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All of a sudden one day, Śrīpāda Nārāyaṇa Mahārāja said, “Your appearance day has been included in the calendar this time.” When I heard about this and came to know it, I was not able to be very pleased, because in my heart, I never crave profit, adoration, or prestige for myself, whether in front of my guru-varga or in their physical absence. Many people think it seems like I asked for this inclusion to be made. But I am completely opposed to advertising my date of birth like this.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;āmi to vaiṣṇava, ei buddhi hoile, amānī nā ha’bo āmī&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;pratiṣṭhāśā āsi’, hṛdaya dūṣibe, haibo nirayagāmī&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;‘nija śreṣṭha jāni’, ucchiṣṭādi-dāne, ha’be abhimāna bhāra&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;tāi śiṣya tava thākiyā sarvadā, nā laibo pūjā kāra&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;“If I think ‘I am a Vaiṣṇava’, I will never stop hankering for pratiṣṭhā (prestige). That desire for prestige will soil my heart and I will be set on the path to hell. If I think myself superior and allow others to take my remnants, I will become weighted down by arrogance. Therefore, I seek to remain your disciple forever and not accept worship from anyone.&lt;/p&gt;
+
+&lt;p&gt;”It is that last form of pratiṣṭhā, or ego, [of being a devoted disciple] that I shall surely have the good sense and courage to preserve, by Śrī Guru-pāda-padma’s causeless mercy.&lt;/p&gt;
+
+&lt;p&gt;Though you all feel a great deal of pride in connection with me, personally I find it embarrassing. I will not be able to make you understand this. However, surely it is necessary that I, too, have some freedom of thought.&lt;/p&gt;
+
+&lt;p&gt;May the Lord bless you with auspiciousness. May He grant you enthusiasm in bhajana and faith in bhakti. Your forbearance and tolerance will surely situate you at the height of honor. Routine study of Śrī Caitanya-caritāmṛta, Jaiva-dharma, Śrī Harināma-cintāmaṇi and other such holy literatures is essential. Do not forget to always take advantage of the opportunity to hear hari-kathā. Perform pūjārcana (deity worship) according to your capacity. Chanting a lakh of Śrī Nāma is certainly the proper standard. I know that you are very committed in this regard. But do keep in mind one thing – it is also necessary for you to get adequate rest. Otherwise, if that does not happen, your sādhana-bhajana will be crippled by poor health.&lt;/p&gt;
+
+&lt;p&gt;Your eternal well-wisher,
+Śrī Bhaktivedānta Vāmana&lt;/p&gt;
+
+&lt;p&gt;Translated and presented
+by the Rays of The Harmonist Team&lt;/p&gt;
+</description>
+        <pubDate>Sun, 02 Aug 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/a-genuine-guru-never-hankers-for-profit-adoration-or-prestige/</link>
+        <guid isPermaLink="true">http://localhost:4000/a-genuine-guru-never-hankers-for-profit-adoration-or-prestige/</guid>
+        
+        
+        <category>Srila Gurudeva Articles</category>
+        
+        <category>BV Vaman Goswami Maharaj</category>
+        
+      </item>
+    
+      <item>
+        <title>How Srila Vaman Maharaja was appointed Acharya of the Gaudiya Vedanta Samiti</title>
+        <description>&lt;p&gt;In the following article Srila Bhakti Vedanta Yachak Maharaja gives us insight of how Srila Bhakti Vedanta Vaman Goswami Maharaja was appointed as the Acharya of Gaudiya Vedanta Samiti.&lt;/p&gt;
+
+&lt;h4 id=&quot;how-srila-vaman-maharaja-was-appointed-acharya-of-the-gaudiya-vedanta-samiti&quot;&gt;How Srila Vaman Maharaja was appointed Acharya of the Gaudiya Vedanta Samiti?&lt;/h4&gt;
+
+&lt;p&gt;By Srila Bhakti Vedanta Yachak Maharaja&lt;/p&gt;
+
+&lt;p&gt;Today is the appearance day of Param-aaradhya (most revered) Srila Gurudeva Bhakti Vedanta Vaman Goswami Maharaja on whose lotus feet I would like to offer my prostrated obeisances.&lt;/p&gt;
+
+&lt;p&gt;“Sakshad-haritvena samasta-shastrair uktas tatha bhavyata eva sadbhihi”, as per the scriptures it is said that the spiritual master is to be honored as sakshad-Hari (as the Supreme Lord himself). This ‘haritva’ is an adjective and not a noun like Hari, i.e ‘haritva’ is not the Vishaya-vigraha ‘haritva’ but the Ashraya-vigraha ‘haritva’.&lt;/p&gt;
+
+&lt;p&gt;From this we can understand that Hari and Guru are related to each other as noun is to an adjective. Guru is the only one who is capable of making a jiva sakshat-kar (bring in close proximity) to Hari, hence he is called as Sakshad-hari.&lt;/p&gt;
+
+&lt;p&gt;The way Bhagavan is eternal similarly Sri Guru is also eternal. Sri Krishna did not become Bhagavan all of a sudden; Previously he was an ordinary mortal and later attaining Bhagavattva became Bhagavan is also not the case.&lt;/p&gt;
+
+&lt;p&gt;While Sri Krishna was in the garbha(womb), the garbha-stuti done by demi-gods is the proof of His Bhagavattva, similarly we can see in Srila Gurupadpadma non attachment towards worldly relationships and deep attachment to serve Hari Guru and Vaishnavas from his infancy. Thus we can see the symptoms of ‘Gurutva’ was manifested within Srila Gurudeva right from the beginning.&lt;/p&gt;
+
+&lt;p&gt;Although Guru-tattva is eternal, however from Chaitanya Charitamrita we find the following verse – “amara ajnaya guru haiya, taro ei desa”. The significance of this verse is, the one who is linked to the supreme i.e para brahmani-nisnato can only empower his intimate and accomplished associate to assume the role of a Guru.&lt;/p&gt;
+
+&lt;p&gt;Just like we can see in the material world a Phd holder can only confer a Phd degree to a competent recipient, before such degree is conferred to him, he cannot perform the actions reserved for a person holding that degree nor can he proclaim himself as the owner of such powers. Neither can a non-Phd holder confer him with such a degree.&lt;/p&gt;
+
+&lt;p&gt;Similarly in the Spiritual world one can assume the role of an Acharya only when empowered by his preceptor and can perform the functions of a Guru on being instructed to do so.&lt;/p&gt;
+
+&lt;p&gt;I consider myself fortunate as I obtained a place at the lotus feet of Srila Param Gurudeva Bhakti Prajnana Kesava Goswami Maharaja who was merciful enough to initiate me with harinaam. At that time he was performing his illness-pastimes on this material plane, hence it wasn’t possible to obtain siksha-diksha directly from him.&lt;/p&gt;
+
+&lt;p&gt;However being antaryami (knower of one’s inner desires) one day he instructed me – “tumi Vaman Maharaj er seva koro, tumi tar kachay sob pabay.” (You engage in devotional service under the guidance of Vaman Maharaja, from him you will get everything). At that time we used to hear his name as the succeeding Acharya of Gaudiya Vedanta Samiti. Hence I started to consider him also as my Gurupadpadma. And it is at his lotus feet from where I obtained all my spiritual wealth. Hence he is my param-aaradhya Guru Maharaja.&lt;/p&gt;
+
+&lt;p&gt;Srila Gurudeva Bhakti Vedanta Vaman Goswami Maharaja lived an exemplary life that every phase of his manifest pastimes is laden with invaluable teachings. In the most quietest of way his actions in the face of any kind of circumstances spoke the loudest about what should be the conduct of a Vaishnava in the line of Srila Prabhupada. In that light we shall discuss the events that lead up to his appointment and thereafter as the Acharya of the Gaudiya Vedanta Samiti.&lt;/p&gt;
+
+&lt;p&gt;It is a well known fact that Srila Gurudeva had at the tender age of 9 years taken shelter at the lotus feet of Sri Srila Prabhupada and had started residing at Sri Chaitanya Math. Since that time he had been nourished and nurtured under the tutelage of the then manager of Sri Chaitanya Math, Sri Vinodh Bihari Bramhachari (Srila Bhakti Prajnana Keshav Goswami Maharaja) who adorned him with every siddhanta (established spiritual conclusions) by educating him on Srimad Bhagvad Gita, Vedanta Sutras and other Spiritual text.&lt;/p&gt;
+
+&lt;p&gt;From this chain of events I am reminded of a thing. In the 8 maths (preaching centre) established by Srila Madhvacharya the founding Acharya of our Sampradaya, the Acharya selects among his initiated disciples one, who doesn’t have any attachments towards material life and has great propensity to absorb the teachings of the shastras, and keeps him in his custody right from his childhood.&lt;/p&gt;
+
+&lt;p&gt;And keeping him under his subservience he engages the child in rendering every kinds of service and imparting every kind of knowledge with the goal of establishing him in both acchar and vichaar as the succeeding Acharya. By God’s divine plan Srila Kesava Goswami Maharaja similarly nourished and nurtured him both materially and spiritually.&lt;/p&gt;
+
+&lt;p&gt;From his childhood Srila Kesava Goswami maharaj saw in that boy detachment towards all material relationships. His parents came to the math numerous times on various pretexts and tried to lure him back to into the folds of material affection which he had no taste for. He also saw in that boy a great appetite and unparalleled intellect for absorbing and retaining spiritual learnings.&lt;/p&gt;
+
+&lt;p&gt;He also observed in the boy a great temperament for rendering service to Guru and Vaishnavas, hence he named him as ‘Sajjan Sevak’ (One who renders service to vaishnavas). These are the qualifications of an Acharya that he marked in that boy right from the beginning.&lt;/p&gt;
+
+&lt;p&gt;Srila Gurudeva (Srila Vaman Goswami Maharaja) was of a very modest and humble nature, he was extremely intelligent, having profound complying nature, and was extremely competent in rendering every kind of of Seva (From the kitchen, temple, press and even the toilets). He was very conversant with the shastras and could quote thousand slokas from different sources, hence Srila Kesava Goswami Maharaja declared him publicly as the ‘Living dictionary’ of Gaudiya Vedanta Samiti. He was considered unparalleled in the Vaishnava community as a thesaurus of Gaudiya Siddhanta.&lt;/p&gt;
+
+&lt;p&gt;During the establishment of the Gaudiya Vedanta Samiti of he was one of the founding members and the only disciple of Srila Kesava Goswami Maharaj to be so. After the establishment of the Gaudiya Vedanta Samiti on the order of his spiritual master, Srila Gurudeva (Srila Vamana Maharaj) took over complete responsibility of the Printing Press.&lt;/p&gt;
+
+&lt;p&gt;One day while operating the press his hand was caught in the machine and one of his fingers were also severed. Srila Kesava Goswami Maharaj took him to the hospital and cried inconsolably. When Srila vaman Goswami Maharaja asked him ‘Gurudeva I am fine, why are you crying ?’ , he replied ‘You will know when you become the father of a child’.&lt;/p&gt;
+
+&lt;p&gt;Srila Vaman Goswami Maharaja was confused as to how he being a renunciate Bramhachari could ever become a father but it was just the indication of the things to come. In anticipation of the greater responsibilities that Srila Gurudeva (Srila Vaman Goswami Maharaja) would one day assume, Srila Keshav Goswami Maharaj moved him from the Printing Press in which he(Srila vaman Goswami Mhj) had got so deeply engrossed, to preaching and expansion of the movement that he(Srila Kesava Goswami Maharaja) had started.&lt;/p&gt;
+
+&lt;p&gt;Although Srila Kesava Goswami Maharaja had selected in his mind for the role of succeeding him as the Acharya of the GVS, his eldest and most accomplished disciple, he also weighed upon the social considerations. From a social standpoint Srila Kesava Goswami Maharaj wanted to put to test his choice and at the same time check if there were anyone who considered themselves in contention so he took a number of steps.&lt;/p&gt;
+
+&lt;p&gt;Firstly he arranged for voting to be done. In this regard he chose upon 100 prudent and judicious people. Among them were prominent renunciate and householder disciples of Srila BhaktiSiddhanta Saraswati Prabhupada, prominent renunciate and householder disciples of other maths which had maintained close proximity to the affairs of the Gaudiya Vedanta Samiti, and his own prominent disciples. In this way 100 people were chosen to vote upon who would be the most appropriate person to succeed Srila Kesava Goswami Maharaja. Among the 100 votes registered nearly 96 votes were cast for Srila Bhakti Vedanta Vaman Goswami Maharaja.&lt;/p&gt;
+
+&lt;p&gt;Secondly he called upon three of his most beloved disciples Srila Bhakti Vedanta Vaman Goswami Maharaja, Srila Bhakti Vedanta Trivikrama Maharaja and Srila Bhakti Vedanta Narayan Maharaja. As narrated by Srila Bhakti Vedanta Trivikrama Maharaja to this ignoble self, first he called Srila Trivikrama Maharaja and asked if he wanted to become the Acharya of the Gaudiya Vedanta Samiti. Srila Maharaja expressed that he wasn’t qualified, he instead suggested the name of Srila Vaman Maharaja as the most qualified among all of them to take up such a monumental responsibility.&lt;/p&gt;
+
+&lt;p&gt;Then he called upon Srila Bhakti Vedanta Narayan Maharaja and he too expressed similar opinion. Finally he called upon Srila Bhakti Vedanta Vaman Goswami Maharaja. What ensued in the room no one knows but Srila Trivikrama Maharaja said they could hear Srila Vaman Maharaja cry profusely. It was like no one wanted to bear the cross. But it was the unique way of Srila Kesava Maharaja to not only pass the mantle to his most accomplished disciple but also pass it after building consensus on their own volition.&lt;/p&gt;
+
+&lt;p&gt;Srila Gurudeva Bhakti Vedanta Vaman Goswami Maharaja was blessed not only by his Spiritual Master but also by most other senior disciples of Srila Prabhupada who showered him with their affectionate blessings for his humble nature, sweet spokenness, amani-manada bhava (One who himself does not desire respect but gives respect to others), proficiency over all shastras(Spiritual texts) and the ability to maintain complete harmony between every aspect he dealt with.&lt;/p&gt;
+
+&lt;p&gt;One such shower of blessing appeared on the 8th issue of the Gaudiya Patrika by Sri Bhakti Turjyaswami Maharaja (disciple of BhaktiSiddhanta Saraswati Prabhupada) and was published on his request by Srila Bhakti Prajnana Kesava Goswami Maharaja.&lt;/p&gt;
+
+&lt;p&gt;The excerpts of this article is as follows –&lt;/p&gt;
+
+&lt;p&gt;“Bayase navin tumi buddhi te pravin,
+Seva te sa-utsahi sada abhimaan hina”
+“Daruna deha-pida tomaye na kaila klishta,
+aumlaan-vadane sahi sevile je ishta”
+“Sevak er seva brata, deha mana dharma.
+Talaite nahi pare sekhalay se mormo.”
+“Nirava Seva tomar pratistha-hina,
+prajnavana Sanyasi tumi boyeshay navina”&lt;/p&gt;
+
+&lt;p&gt;(Although you are young, your understanding reveals great wisdom. You are untouched by pride and are always enthusiastic to render devotional service.&lt;/p&gt;
+
+&lt;p&gt;You are not afflicted/wearied even from bodily sufferings and without any perturbance on your face you engage in service to your spiritual master.&lt;/p&gt;
+
+&lt;p&gt;One who is engaged in rendering service is unwavered from his vow to serve free from the dictates of the body and the mind. By such behavior you have taught us this fundamental truth.&lt;/p&gt;
+
+&lt;p&gt;You perform your service silently free from the desire of prestige. You are a very learned Sanyasi although you are very young.)&lt;/p&gt;
+
+&lt;p&gt;These verses offer us just a glimpse of the love and affection that senior vaishnavas had for Srila Gurudeva.&lt;/p&gt;
+
+&lt;p&gt;So after having weighed upon every consideration Srila Kesava Goswami Maharaja made public his decision that Srila Bhakti Vedanta Vaman Goswami Maharaja would lead the Gaudiya Vedanta Samiti in all its affairs.&lt;/p&gt;
+
+&lt;p&gt;Just before his disappearance Srila Kesava Goswami Maharaj gave one advice on foresight to Srila Gurudeva&lt;/p&gt;
+
+&lt;p&gt;“Dekhbi, Sunbi, bolbi na; chokh achay dekhbi, kaan achay sunbi, mukh achay bolbi na”&lt;/p&gt;
+
+&lt;p&gt;Watch, listen but never open your mouth.You have eyes, see; you have ears, listen;But you have mouth, don’t speak!!!&lt;/p&gt;
+
+&lt;p&gt;The significance of the advice was that the illusionary forces of nature would in its different veils confront him and the Samiti with vile criticism, but irrespective of whatever the circumstances are he advised him to be tolerant.&lt;/p&gt;
+
+&lt;p&gt;After the disappearance of Srila Kesava Goswami Maharaj, Srila Gurudeva was appointed as the succeeding President and Acharya of the Gaudiya Vedanta Samiti in the year 1968 as per the instructions of Srila Kesava Goswami Maharaja in his final will and executed by Srila Bhakti Dayita Madhav Goswami Maharaj, Srila Bhakti Srirup Siddhanti Goswami Maharaja, Srila Bhakti Kumud Santa Goswami Maharaja and other disciples of Srila Prabhupada.&lt;/p&gt;
+
+&lt;p&gt;After assuming the role of Acharya, Srila Gurudeva always ensured that his god-brothers were given utmost respect. Through his words and actions he never used to reveal his own glory that was latently manifested within him. He was ever engaged in living a life of subservience and in the line with the words spoken by Hari, Guru and Vaishnavas.&lt;/p&gt;
+
+&lt;p&gt;Following the instructions given to him by his Gurudeva, in his life he has on numerous occasions endured and is still enduring many a slander without any resistance. He is the living example of the verse ‘taror api sahisnuna’.&lt;/p&gt;
+
+&lt;p&gt;Infact his exemplary life itself is a personification of all the instructions given by the shastras. In one of his letters he once wrote&lt;/p&gt;
+
+&lt;p&gt;“All the instructions in the shastras have been directed only for me.
+If you are mine, they are for you too.”&lt;/p&gt;
+
+&lt;p&gt;It is my deep misfortune that although I have spent so many years in close proximity to him I could not obtain the qualification to be able to say Gurudev I am yours. The gap between my actions and the instructions of Hari, Guru and Vaishnavas is so wide that it cannot be bridged by my solitary efforts. Today I pray unto your lotus feet Gurudeva to bridge this gap with your causeless mercy and hope that one day strengthened with your strength I can say Gurudev you have always said&lt;/p&gt;
+
+&lt;p&gt;“All the instructions in the shastras have been directed only for me (here me refers Gurudeva). But I am yours, so they are for me too.”&lt;/p&gt;
+
+&lt;p&gt;With this prayer I would bring my speech to an end. May Srila Gurudeva listen to our prayers and grace us with his mercy.&lt;/p&gt;
+
+&lt;p&gt;This article was written by Srila Bhakti Vedanta Yachak Maharaja, the first disciple of Srila Bhakti Vedanta Vaman Goswami Maharaja.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 27 Jul 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/how-srila-vaman-maharaja-was-appointed-acharya-of-the-gaudiya-vedanta-samiti/</link>
+        <guid isPermaLink="true">http://localhost:4000/how-srila-vaman-maharaja-was-appointed-acharya-of-the-gaudiya-vedanta-samiti/</guid>
+        
+        
+        <category>Srila Gurudev Homages</category>
+        
+        <category>BV Vaman Goswami Maharaj</category>
+        
+      </item>
+    
+      <item>
+        <title>Devotional life definition</title>
+        <description>&lt;p&gt;The following devotional life definition by Srila B.V. Vāmana Mahārāja gives us practical guidance in our daily lifes.&lt;/p&gt;
+
+&lt;h4 id=&quot;devotional-life-definition-by-srila-bv-vamana-maharaja&quot;&gt;Devotional Life Definition by Srila B.V. Vamana Maharaja&lt;/h4&gt;
+
+&lt;p&gt;dinera adhika dayā karena bhagavān
+Bhagavān Has More Compassion for the Fallen
+by Śrīla Bhaktivedānta Vāmana Gosvāmī Mahārāja
+Date: 9 September, 1975&lt;/p&gt;
+
+&lt;p&gt;My dear object of affection [This letter was written to revered Umā dīdī],&lt;/p&gt;
+
+&lt;p&gt;“By his own will, the soul harbours millions of hankerings. Yet, without Kṛṣṇa’s Will, none bear fruit.”&lt;/p&gt;
+
+&lt;p&gt;Man’s desires and ambitions have no end, so they can never be fulfilled. However, Śrī Bhagavān fulfills the devotees’ wishes, so He is called, “bhakta-vāñcha kalpa-taru – a desire tree for His devotees’ aspirations.” His devotees, too, earn this title.&lt;/p&gt;
+
+&lt;p&gt;Because of your mother’s illness, you could not come to Navadvīpa. I understand. Your mother is a great Vaiṣṇavī and by nature very inclined to devotion. She has immovable faith and profound devotion for Śrī Hari, Guru, and Vaiṣṇavas.&lt;/p&gt;
+
+&lt;p&gt;Therefore, you must accept that you have to sacrifice something in your efforts to serve her. Even though she does not expect you to serve and tend to her, you must certainly continue to fulfil your duty, especially since it is an activity that is favourable to bhakti yoga.&lt;/p&gt;
+
+&lt;p&gt;“Śarirām-ādyaṁ khalu dharma-sādhanam – maintaining the body is certainly the first step in accomplishing one’s religious duties.” On one hand this statement is true, for who can perform dharma if their body falls ill? On the other hand, indulging the body’s needs on the pretence of taking care of it will turn one into an enjoyer and inevitably invite trouble.&lt;/p&gt;
+
+&lt;p&gt;Therefore, it is the crucial duty of the intelligent person who longs to perform hari-bhajana to harmonize both sides of this quandary. You are intelligent; I feel it is unnecessary for me to write anything more on this topic.&lt;/p&gt;
+
+&lt;p&gt;I understand you were very pleased to receive the letter I wrote you from Śrī Nīlācala Gauḍiya Maṭha. Only the meek, destitute and wretched are worthy of mercy. “Dinera adhika dayā karena bhagavān—paṇḍita, kulīna, dhanīra, baḍa abhimāna – Bhagavān is more merciful to the meek. The scholars, dynasty priests, and the rich are very arrogant.”&lt;/p&gt;
+
+&lt;p&gt;Therefore, they are fortunate who are blessed with the mercy of attaining the teachings and instructions of Guru and Vaiṣṇavas. We truly do not have the words to express our gratitude to śrī guru-pāda-padma and Śrī Bhagavān. If they inundate us with the appropriate sentiments and language, then everything is possible.&lt;/p&gt;
+
+&lt;p&gt;When Dhruva, a five year old boy, obtained a glimpse, or darśana, of that lotus-eyed Śrī Hari, he wanted to praise Him with hymns and prayers. Besides the mercy of Śrī Guru, there is no scope for an illiterate, uninitiated person to obtain darśana of Bhagavān.&lt;/p&gt;
+
+&lt;p&gt;The ability to offer prayers and hymns to Bhagavān comes by His own special mercy. This, indeed, is the proper conception, or siddhānta. It is Śrī Bhagavān alone who infuses the heart of each and every soul with inspiration; He gives them speech.&lt;/p&gt;
+
+&lt;p&gt;Does a toddler who speaks in broken, half-formed words not attract the love of his mother and father? Do the toddler’s superiors judge the purity or impurity of his language or speech? Rather, it truly delights and enthuses them.&lt;/p&gt;
+
+&lt;p&gt;Go to Śrī Maṭha on a regular basis and take advantage of hearing and contemplating the hari-kathā, classes and kīrtanas. Whatever you come across in your own reading that you do not understand will easily become intelligible if you hear from the worshipful mouths of the Vaiṣṇavas, because their words and utterances possess a special potency.&lt;/p&gt;
+
+&lt;p&gt;Scripture recommends one seek the company of the sādhus through their literatures only when one is bereft of direct association of sādhus (sat-saṅga). Sādhu, Guru, and Vaiṣṇavas carry Śrī Bhagavān in their hearts. The Sādhus are Bhagavān’s heart, and Bhagavān is the Sādhus’ heart. Therefore, Vaiṣṇavas are the principal knowers of the essence of all Bhagavān’s instructions and are His encyclopaedias!&lt;/p&gt;
+
+&lt;p&gt;Becoming too trapped by or too attracted to this mundane existence creates impediments to the practice of bhajana. This is very true. It is for this reason that we are specially instructed to remain in the proximity of Vaiṣṇavas, or devotees. Attachment to the material objects of these senses is called saṁsāra, or nescient existence.&lt;/p&gt;
+
+&lt;p&gt;The transcendental object is Śrī Kṛṣṇa. In order to heighten our attraction to Him, we have to be in satsaṅga. Thus there is a difference of heaven and hell between the saṁsāra, or realm of mundane sense objects, and that of the transcendental object, Śrī Kṛṣṇa. If one serves the mundane realm of saṁsāra, a dismal nadir of a destination awaits, whereas in Kṛṣṇa’s saṁsāra, there is always benefit and elevation.&lt;/p&gt;
+
+&lt;p&gt;Therefore, scripture teaches: “kṛṣṇera saṁsāra kara chāḍi’ anācāra; jīve dayā, nāme rūci—sarva-dharma-sāra – Engage in Kṛṣṇa’s saṁsāra and give up improper behaviour. Compassion to all living entities and taste in the holy names – this is the essence of all religion.”&lt;/p&gt;
+
+&lt;p&gt;Guru, Vaiṣṇavas and Bhagavān eradicate the devotee’s heartache as antaryāmi, the inner guardians of all. If the devotee becomes fitful and anxious to attain a glimpse (darśana) of Bhagavān then Bhagavān will surely fulfil the devotee’s longing. That is why His name is Bhakta-vatsala, “He is who is partial, like an affectionate parent, to His devotees”.&lt;/p&gt;
+
+&lt;p&gt;In the mornings, once you have completed your morning functions, bathed, and completed your ahnika, it fosters auspiciousness to read and recite devotional life definition songs and hymns or prayers. When that is finished, it is imperative to chant śrī-nāma on your beads.&lt;/p&gt;
+
+&lt;p&gt;Prayers, expressions of humility and entreaties to śrī guru, Vaiṣṇava and Bhagavān can be found amid the collections of songs by our great predecessors, the mahājanas, songs such as Gurvvaṣṭaka, Ṣad-Gosvāmyaṣṭaka, Nityānanda and Gaurāṅga Aṣṭaka, Daśāvatāra Stotra and a multitude of praṇāma-mantras. They, also, can be repeatedly recited. Such engagement is considered one of the limbs of bhajana, by which one’s śraddhā in Śrī Bhagavān flourishes.&lt;/p&gt;
+
+&lt;p&gt;“Je jata patita haya, tava dayā tata tāya – The more one is fallen, the more compassion You [Śrī Bhagavān) have for him.” This statement is found in the utterances of the mahājanas.&lt;/p&gt;
+
+&lt;p&gt;“I am bereft of devotion and faith.” If we can speak like this from our hearts, then certainly Śrī Bhagavān will banish all of our shortcomings and grant us service to His beautiful feet, which are the abodes of fearlessness. At that time the opportunity to make the human form of life successful comes. In that state, there is no question of the worthiness of one’s sentiments, devotion or language, because Śrī Bhagavān’s mercy is causeless; it has no pre-condition.&lt;/p&gt;
+
+&lt;p&gt;“YOGYATĀ VICĀRE KICHU NĀHI PĀĪ, TOMĀRA KARUṆĀ SĀRA; KARUṆĀ NĀ HA’LE KĀ̃NDIYĀ KĀ̃NDIYĀ, PRĀṆA NĀ RĀKHIBO ĀRA – WHEN I TRY TO DISCERN MY QUALIFICATIONS, I FIND NONE. YOUR MERCY IS EVERYTHING TO ME. IF YOU ARE NOT COMPASSIONATE, I WILL WEEP AND WEEP, AND NO LONGER MAINTAIN MY LIFE.”&lt;/p&gt;
+
+&lt;p&gt;Also: “vicārite āvahi guṇa nāhi pāobi, kṛpā kari choḍata vicāra – Upon ceaseless deliberation, I find no good qualities in myself. Therefore, please have mercy on me without consideration.” These are examples of the sādhaka’s or sādhikā’s anguished prayers, yardsticks of his or her qualification or eligibility. Thus I conclude.&lt;/p&gt;
+
+&lt;p&gt;Always aspiring for your welfare,
+Śrī Bhaktivedānta Vāmana&lt;/p&gt;
+
+&lt;p&gt;[Translated from Śrīla Vāmana Gosvāmī Mahārājera Patrāvalī]
+Conclusion on devotional life definition by Srila B.V. Vamana Maharaja
+To serve the Vaishnavas and to listen hari-katha from them with the right attitude, is crucial for our devotional life. This wonderful letter gives us a clear devotional life definition, we hope that our readers will find it helpful.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 27 Jul 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/devotional-life-definition/</link>
+        <guid isPermaLink="true">http://localhost:4000/devotional-life-definition/</guid>
+        
+        
+        <category>Srila Gurudeva Letters</category>
+        
+        <category>BV Vaman Goswami Maharaj</category>
+        
+      </item>
+    
+      <item>
+        <title>Powerful things you can do with the Markdown editor</title>
+        <description>&lt;p&gt;There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
+
+&lt;p&gt;As with the last post about the editor, you’ll want to be actually editing this post as you read it so that you can see all the Markdown code we’re using.&lt;/p&gt;
+
+&lt;h2 id=&quot;special-formatting&quot;&gt;Special formatting&lt;/h2&gt;
+
+&lt;p&gt;As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;del&gt;strike through&lt;/del&gt;&lt;/li&gt;
+  &lt;li&gt;==highlight==&lt;/li&gt;
+  &lt;li&gt;*escaped characters*&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;writing-code-blocks&quot;&gt;Writing code blocks&lt;/h2&gt;
+
+&lt;p&gt;There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, &lt;code class=&quot;highlighter-rouge&quot;&gt;like this&lt;/code&gt;. Larger snippets of code can be displayed across multiple lines using triple back ticks:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;.my-link {
+    text-decoration: underline;
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;html&quot;&gt;HTML&lt;/h4&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ml-1 mr-1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_blank&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fab fa-twitter&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;css&quot;&gt;CSS&lt;/h4&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nc&quot;&gt;.highlight&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.c&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#999988&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;italic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.highlight&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.err&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#a61717&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#e3d2d2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;js&quot;&gt;JS&lt;/h4&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// alertbar later&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scroll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scrollTop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;280&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.alertbar'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fadeIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.alertbar'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fadeOut&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;python&quot;&gt;Python&lt;/h4&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;ruby&quot;&gt;Ruby&lt;/h4&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'redcarpet'&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;markdown&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Redcarpet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;markdown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_html&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;c&quot;&gt;C&lt;/h4&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/8.jpg&quot; alt=&quot;walking&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;reference-lists&quot;&gt;Reference lists&lt;/h2&gt;
+
+&lt;p&gt;The quick brown jumped over the lazy.&lt;/p&gt;
+
+&lt;p&gt;Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.&lt;/p&gt;
+
+&lt;h2 id=&quot;full-html&quot;&gt;Full HTML&lt;/h2&gt;
+
+&lt;p&gt;Perhaps the best part of Markdown is that you’re never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here’s a standard YouTube embed code as an example:&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 12 Jun 2018 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/powerful-things-markdown-editor/</link>
+        <guid isPermaLink="true">http://localhost:4000/powerful-things-markdown-editor/</guid>
+        
+        
+        <category>Jekyll</category>
+        
+        <category>tutorial</category>
+        
+      </item>
+    
+      <item>
+        <title>The first mass-produced book to deviate from a rectilinear format</title>
+        <description>&lt;p&gt;The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.&lt;/p&gt;
+
+&lt;p&gt;An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.&lt;/p&gt;
+
+&lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original - which sees Little Red Riding Hood being gobbled up as well as her grandmother - is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 12 Jun 2018 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/first-mass-produced/</link>
+        <guid isPermaLink="true">http://localhost:4000/first-mass-produced/</guid>
+        
+        
+        <category>Jekyll</category>
+        
+        <category>tutorial</category>
+        
+      </item>
+    
   </channel>
 </rss>
