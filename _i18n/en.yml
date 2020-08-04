@@ -1,0 +1,8 @@
+global:
+  english: Eng 
+  bengali: Ben
+pages:
+  home: Home
+  about: About
+titles:
+  pagination: Pagination
